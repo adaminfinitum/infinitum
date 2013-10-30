@@ -1,0 +1,197 @@
+/* Matching classes assigned so we don't use headings for visual styling
+   concept from the w3's css - http://www.w3.org/2008/site/css/minimum */
+   h1,.h1{ }
+   h2,.h2{ }
+   h3,.h3{ }
+   h4,.h4{ }
+   h5,.h5{ }
+   h6,.h6{ }
+   i,em,.italic{font-style: italic;} /* i is semantic HTML5 for things which shouldn't be read with 'emphasis' by a screenreader (like a latin species name) */
+   b,.bold{font-weight:bolder;} /* b is semantic HTML5 for things which shouldn't be read in a 'strong' voice by a screenreader */
+   strong{font-weight:700;}
+
+   abbr[title]{border-bottom:thin dotted rgba(122, 122, 122, .5);}
+   h1>abbr,h2>abbr,h3>abbr,h4>abbr,h5>abbr,h6>abbr{border-bottom:none;} /* no (dotted) bottom border for abbr in headlines */
+   abbr.initialism{text-transform: uppercase; font-size:90%;} /* courtesy of twitter bootstrap */
+
+/* The order of link psudeo class properties matters... */
+   a,a:link{ } /* a:link is needed to overcome default browser styling in Chrome */
+   a:visited{ }
+   a:active{ }
+   a:hover{ }
+   a:active{ }/* a:focus is often the same as a:active and if so combine rules */
+   a:focus{ }
+
+/* Use for location references or 'sub-headlines' that should be indexed as part of headline */
+   .seo-sub-title{
+        display:block;
+        letter-spacing:normal;
+        word-spacing:normal;
+        font-size:18px;}
+
+   .fsol{float:left;} /* "float start of line" */
+   .feol{float:right;} /* "float end of line" */
+   .center{text-align: center;}
+   .centered{margin-left:auto;margin-right: auto;}
+   .ninety{font-size:90%;}
+   .one-ten{font-size:110%;}
+
+   /* Utility spacing classes,
+      concept from the w3's css - http://www.w3.org/2008/site/css/minimum */
+   .p1{padding:1em;}
+   .p1t{padding-top:1em;}
+   .p1r{padding-right:1em;}
+   .p1b{padding-bottom:1em;}
+   .p1l{padding-left:1em;}
+   .m1{margin:1em;}
+   .m1t{margin-top:1em;}
+   .m1r{margin-right:1em;}
+   .m1b{margin-bottom:1em;}
+   .m1s{margin-left:1em;}
+
+   .active{ }
+   .last{ }
+   .notice{ }
+
+/* Nice horizontal line that fades in a gradient towards the edges from css-tricks.com */
+   .sexy-line {
+        height:1px;
+        border:none;
+        background: #777;
+        width:100%;
+        background:-webkit-gradient(linear, 0 0, 100% 0, from(rgba(50,50,50,0.01)), to(rgba(80,80,80,0.01)), color-stop(.5, #c9c9c9) );
+        background:-moz-linear-gradient(left, rgba(0,0,0,0.001) 0%, rgba(201,201,201,1) 50%, rgba(0,0,0,0.001) 100% );
+        background:-ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+        background:-o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);
+        background:linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+
+ /*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.accessibly-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.accessibly-hidden.focusable:active,
+.accessibly-hidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
