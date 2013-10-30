@@ -1,22 +1,66 @@
 /* Icons */
-[class^="icon-"] a:before,
-[class*=" icon-"] a:before,
-[class^="icon-"] a:after,
-[class*=" icon-"] a:after,
-i[class^="icon-"],
-i[class*=" icon-"] {
-  font-family: "#{$icons}";
-  position:absolute;
-  text-decoration:none;
-  zoom: 1;
+[class*="icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Enable Ligatures ================ */
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-i[class^="icon-"],
-i[class*=" icon-"] {
-  display: inline-block;
-  position: static;
-  min-width: 20px;
-  margin: 0 5px;
-  text-align: center;
+.icon-github:before {
+	content: "\e600";
+}
+.icon-twitter2:before {
+	content: "\e601";
+}
+.icon-google-plus:before {
+	content: "\e602";
+}
+.icon-at:before {
+	content: "\61";
+}
+.icon-feed:before {
+	content: "\e604";
+}
+.icon-home:before {
+	content: "\e606";
+}
+.icon-link:before {
+	content: "\e608";
+}
+.icon-youtube-sign:before {
+	content: "\e609";
+}
+.icon-star:before {
+	content: "\e60a";
+}
+.icon-email:before {
+	content: "\1f4e7";
+}
+.icon-checkbox-checked:before {
+	content: "\e60c";
+}
+.icon-stackexchange:before {
+	content: "\e60d";
+}
+.icon-question-sign:before {
+	content: "\3f";
+}
+.icon-chevron-sign-right:before {
+	content: "\27b2";
 }
 

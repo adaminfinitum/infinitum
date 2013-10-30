@@ -55,11 +55,13 @@ Version: 1.0
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-@import "modular-scale";
+// @import "extensions/modular-scale/stylesheets/modular-scale";
 
 @import "var/settings";
 @import "var/lists";
 // @import "var/icons/entypo";
+
+@import "extensions/modular-scale/stylesheets/modular-scale";
 
 // @import "compass";
 @import "compass/reset";
@@ -67,7 +69,7 @@ Version: 1.0
 @import "functions/all";
 
 @import "base";
-// @import "fonts";
+@import "fonts";
 @import "typography";
 @import "grid";
 @import "ui/all";

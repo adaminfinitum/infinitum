@@ -11,7 +11,7 @@
     "node": true,
     "undef": true,
     "browser": true,
-    "trailing": true,
+    "trailing": false,
     "jquery": true,
     "curly": true,
     "supernew": true,

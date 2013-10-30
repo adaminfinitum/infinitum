@@ -54,8 +54,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'assets/js/plugins.min.js': [
-                        'assets/js/source/plugins.js',
-                        // 'assets/js/vendor/yourplugin/yourplugin.js',
+                        'assets/js/source/plugins.js'
                     ]
                 }
             },
@@ -68,6 +67,21 @@ module.exports = function(grunt) {
                 files: {
                     'assets/js/main.min.js': [
                         'assets/js/source/main.js'
+                    ]
+                }
+            },
+            gumby: {
+                options: {
+                    sourceMap: 'assets/js/gumby.js.map',
+                    sourceMappingURL: 'gumby.js.map',
+                    sourceMapPrefix: 2
+                },
+                files: {
+                    'assets/js/gumby.min.js': [
+                        'assets/js/gumby/libs/gumby.js',
+                        'assets/js/gumby/libs/gumby.min.js',
+                        'assets/js/vendor/gumby-images/gumby.images.js',
+                        'assets/js/gumby/libs/gumby.init.js'
                     ]
                 }
             }
