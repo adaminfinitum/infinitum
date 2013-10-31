@@ -1,5 +1,11 @@
 # Require any additional compass plugins here.
 
+# Tell compass where to find local extensions
+# If you followed directions and ran 'gem install modular-scale' comment the next two lines out:
+extensions_dir = "assets/scss/extensions"
+
+Compass::Frameworks.register('modular-scale', :path => File.expand_path("#{extensions_dir}/modular-scale"))
+
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "/"
@@ -8,12 +14,12 @@ images_dir = "assets/images"
 javascripts_dir = "assets/js"
 fonts_dir = "assets/fonts"
 
-output_style = :compressed
+# output_style = :compressed
 
 relative_assets = true
 
-line_comments = false
-color_output = false
+# line_comments = false
+# color_output = false
 
 
 # If you prefer the indented syntax, you might want to regenerate this

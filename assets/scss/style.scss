@@ -10,6 +10,9 @@ Version: 1.0
 */
 
 // Compass imports
+
+@import "modular-scale";
+
 @import "compass";
 
 // Reset, Variables, Mixins, Etc
@@ -59,9 +62,7 @@ Version: 1.0
 
 @import "var/settings";
 @import "var/lists";
-// @import "var/icons/entypo";
-
-@import "extensions/modular-scale/stylesheets/modular-scale";
+@import "var/icons/entypo";
 
 // @import "compass";
 @import "compass/reset";

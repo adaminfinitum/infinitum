@@ -28,10 +28,11 @@
 			'github': '&#xe600;',
 			'twitter': '&#xe601;',
 			'google+': '&#xe602;',
-			'rss': '&#xe604;',
-			'home': '&#xe606;',
-			'youtube': '&#xe609;',
-			'stack exchange': '&#xe60d;',
+			'rss': '&#xe603;',
+			'youtube': '&#xe608;',
+			'home': '&#xe60a;',
+			'linked in': '&#xe60b;',
+			'stack exchange': '&#xe60e;',
 			'0': 0
 		};
 		delete icons['0'];

@@ -1,0 +1,71 @@
+[class*="icon-"] {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-infinity {
+	background-position: 0 0;
+	width: 32px;
+}
+.icon-github {
+	background-position: -48px 0;
+	width: 32px;
+}
+.icon-twitter {
+	background-position: -96px 0;
+	width: 32px;
+}
+.icon-google plus {
+	background-position: -144px 0;
+	width: 32px;
+}
+.icon-feed {
+	background-position: -192px 0;
+	width: 32px;
+}
+.icon-checkbox-checked {
+	background-position: -240px 0;
+	width: 32px;
+}
+.icon-question-sign {
+	background-position: -288px 0;
+	width: 27px;
+}
+.icon-email {
+	background-position: -331px 0;
+	width: 32px;
+}
+.icon-star {
+	background-position: -379px 0;
+	width: 32px;
+}
+.icon-youtube-sign {
+	background-position: -427px 0;
+	width: 27px;
+}
+.icon-link {
+	background-position: -470px 0;
+	width: 32px;
+}
+.icon-home {
+	background-position: -518px 0;
+	width: 32px;
+}
+.icon-linkedin {
+	background-position: -566px 0;
+	width: 32px;
+}
+.icon-at {
+	background-position: -614px 0;
+	width: 32px;
+}
+.icon-chevron-sign-right {
+	background-position: -662px 0;
+	width: 27px;
+}
+.icon-stackexchange {
+	background-position: -705px 0;
+	width: 25px;
+}
