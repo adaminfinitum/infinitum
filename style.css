@@ -1,5 +1,5 @@
-@charset "UTF-8";
-/*!
+@charset "IBM437";
+/*
 Theme Name: WordPress Starter Theme
 Theme URI: http://www.THEME.com
 Description: WordPress Starter Theme for use as a starting template for building custom themes.
@@ -26,7 +26,7 @@ Version: 1.0
  * Bulletproof font-face via Font Squirrel
  * @include fontface('family', 'assets/fonts/', 'myfontname');
  */
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -1231,7 +1231,7 @@ ol.commentlist li.odd {
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 */
-/* line 17, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1253,45 +1253,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -1306,12 +1306,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   float: left;
 }
 
-/* line 61, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, ../../.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em;
@@ -1400,8 +1400,8 @@ html, body {
 /* Fonts */
 @font-face {
   font-family: 'infinitum';
-  src: url("assets/fonts/infinitum/infinitum.eot");
-  src: url("assets/fonts/infinitum/infinitum.eot?#iefix") format("ie9-skip-eot"), url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAASsAAsAAAAABGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq8vSGNtYXAAAAFoAAAAPAAAADxELd5/Z2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAQQAAAEEc9+AM2hlYWQAAAKwAAAANgAAADYATa9laGhlYQAAAugAAAAkAAAAJAfCA8RobXR4AAADDAAAAAwAAAAMBgAAAGxvY2EAAAMYAAAACAAAAAgACgCCbWF4cAAAAyAAAAAgAAAAIAAHAFNuYW1lAAADQAAAAUsAAAFL74gzN3Bvc3QAAASMAAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgIh4DwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAgIh7//wAAACAiHv///+Hd5AABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAADAAAAYAQAAmAAGAA0AFAAACUiJwYjIicmNTQ3NjMyFzYzMhcWFRQHBiMBIgcGFRQXFjMyNzY3Njc2PwEmJyYnJicmJyYjISIHBgcGBwYPARYXFhcWFxYXFjMyNzY1NCcmIwMAYZ+fYWpLS0tLamKen2FqS0tLS2r+ADkjIyMjORYYGBMTEBAJCQMGBhISEhIZGRYCABYYGBMTEBAJCQMGBhISEhIZGRY5IyMjIzlgmZlLS2pqS0uZmUtLampLSwGAJSU2NiUlDQ0TExMTDQ0FCAgWFhAQDg4NDRMTExMNDQUJCRYWEBAODiUlNjYlJQABAAAAAQAAtWUyaF8PPPUACwQAAAAAAM6XtgQAAAAAzpe2BAAAAAAEAAJgAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAADAAAAAAIAAAAEAAAAAAAAAAAKAIIAAQAAAAMAUQADAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABABIAAAABAAAAAAACAA4AVQABAAAAAAADABIAKAABAAAAAAAEABIAYwABAAAAAAAFABYAEgABAAAAAAAGAAkAOgABAAAAAAAKACgAdQADAAEECQABABIAAAADAAEECQACAA4AVQADAAEECQADABIAKAADAAEECQAEABIAYwADAAEECQAFABYAEgADAAEECQAGABIAQwADAAEECQAKACgAdQBpAG4AZgBpAG4AaQB0AHUAbQBWAGUAcgBzAGkAbwBuACAAMAAuADAAaQBuAGYAaQBuAGkAdAB1AG1pbmZpbml0dW0AaQBuAGYAaQBuAGkAdAB1AG0AUgBlAGcAdQBsAGEAcgBpAG4AZgBpAG4AaQB0AHUAbQBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=) format("woff"), url("assets/fonts/infinitum/infinitum.ttf") format("truetype"), url("assets/fonts/infinitum/infinitum.svg#infinitum") format("svg");
+  src: url("assets/fonts/infinitum.eot");
+  src: url("assets/fonts/icons/infinitum.eot?#iefix") format("ie9-skip-eot"), url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAASsAAsAAAAABGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq8vSGNtYXAAAAFoAAAAPAAAADxELd5/Z2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAQQAAAEEc9+AM2hlYWQAAAKwAAAANgAAADYATa9laGhlYQAAAugAAAAkAAAAJAfCA8RobXR4AAADDAAAAAwAAAAMBgAAAGxvY2EAAAMYAAAACAAAAAgACgCCbWF4cAAAAyAAAAAgAAAAIAAHAFNuYW1lAAADQAAAAUsAAAFL74gzN3Bvc3QAAASMAAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgIh4DwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAgIh7//wAAACAiHv///+Hd5AABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAADAAAAYAQAAmAAGAA0AFAAACUiJwYjIicmNTQ3NjMyFzYzMhcWFRQHBiMBIgcGFRQXFjMyNzY3Njc2PwEmJyYnJicmJyYjISIHBgcGBwYPARYXFhcWFxYXFjMyNzY1NCcmIwMAYZ+fYWpLS0tLamKen2FqS0tLS2r+ADkjIyMjORYYGBMTEBAJCQMGBhISEhIZGRYCABYYGBMTEBAJCQMGBhISEhIZGRY5IyMjIzlgmZlLS2pqS0uZmUtLampLSwGAJSU2NiUlDQ0TExMTDQ0FCAgWFhAQDg4NDRMTExMNDQUJCRYWEBAODiUlNjYlJQABAAAAAQAAtWUyaF8PPPUACwQAAAAAAM6XtgQAAAAAzpe2BAAAAAAEAAJgAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAADAAAAAAIAAAAEAAAAAAAAAAAKAIIAAQAAAAMAUQADAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABABIAAAABAAAAAAACAA4AVQABAAAAAAADABIAKAABAAAAAAAEABIAYwABAAAAAAAFABYAEgABAAAAAAAGAAkAOgABAAAAAAAKACgAdQADAAEECQABABIAAAADAAEECQACAA4AVQADAAEECQADABIAKAADAAEECQAEABIAYwADAAEECQAFABYAEgADAAEECQAGABIAQwADAAEECQAKACgAdQBpAG4AZgBpAG4AaQB0AHUAbQBWAGUAcgBzAGkAbwBuACAAMAAuADAAaQBuAGYAaQBuAGkAdAB1AG1pbmZpbml0dW0AaQBuAGYAaQBuAGkAdAB1AG0AUgBlAGcAdQBsAGEAcgBpAG4AZgBpAG4AaQB0AHUAbQBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=) format("woff"), url("assets/fonts/icons/infinitum.ttf") format("truetype"), url("assets/fonts/icons/infinitum.svg#infinitum") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5222,7 +5222,7 @@ img {
 
  ======================================================*/
 /* line 8, assets/scss/ui/_navbar.scss */
-.navbar {
+.menu-primary-navigation-container {
   width: 100%;
   min-height: 60px;
   display: block;
@@ -5232,30 +5232,30 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 8, assets/scss/ui/_navbar.scss */
-  .navbar {
+  .menu-primary-navigation-container {
     border: none;
   }
   /* line 17, assets/scss/ui/_navbar.scss */
-  .navbar .column, .navbar .columns {
+  .menu-primary-navigation-container .column, .menu-primary-navigation-container .columns {
     min-height: 0;
   }
 }
 /* line 22, assets/scss/ui/_navbar.scss */
-.navbar.fixed {
+.menu-primary-navigation-container.fixed {
   position: fixed;
   z-index: 99999;
 }
 /* line 26, assets/scss/ui/_navbar.scss */
-.navbar.pinned {
+.menu-primary-navigation-container.pinned {
   position: absolute;
 }
 /* line 29, assets/scss/ui/_navbar.scss */
-.navbar a.toggle {
+.menu-primary-navigation-container a.toggle {
   display: none;
 }
 @media only screen and (max-width: 767px) {
   /* line 29, assets/scss/ui/_navbar.scss */
-  .navbar a.toggle {
+  .menu-primary-navigation-container a.toggle {
     top: 18%;
     right: 4%;
     width: 46px;
@@ -5275,17 +5275,17 @@ img {
     font-size: 1.875rem;
   }
   /* line 45, assets/scss/ui/_navbar.scss */
-  .navbar a.toggle:hover {
+  .menu-primary-navigation-container a.toggle:hover {
     background: #49b564;
   }
   /* line 48, assets/scss/ui/_navbar.scss */
-  .navbar a.toggle:active, .navbar a.toggle.active {
+  .menu-primary-navigation-container a.toggle:active, .menu-primary-navigation-container a.toggle.active {
     background: #3b9150;
   }
 }
 
 /* line 55, assets/scss/ui/_navbar.scss */
-.navbar .logo {
+.menu-primary-navigation-container .logo {
   display: inline-block;
   margin: 0 2.12766% 0 0;
   padding: 0;
@@ -5293,7 +5293,7 @@ img {
   line-height: 58px;
 }
 /* line 60, assets/scss/ui/_navbar.scss */
-.navbar .logo a {
+.menu-primary-navigation-container .logo a {
   display: block;
   padding: 0;
   overflow: hidden;
@@ -5301,21 +5301,21 @@ img {
   line-height: 58px;
 }
 /* line 65, assets/scss/ui/_navbar.scss */
-.navbar .logo a img {
+.menu-primary-navigation-container .logo a img {
   max-height: 95%;
 }
 @media only screen and (max-width: 767px) {
   /* line 55, assets/scss/ui/_navbar.scss */
-  .navbar .logo {
+  .menu-primary-navigation-container .logo {
     float: left;
     display: inline;
   }
   /* line 74, assets/scss/ui/_navbar.scss */
-  .navbar .logo a {
+  .menu-primary-navigation-container .logo a {
     padding: 0;
   }
   /* line 76, assets/scss/ui/_navbar.scss */
-  .navbar .logo a img {
+  .menu-primary-navigation-container .logo a img {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -5323,7 +5323,7 @@ img {
 }
 
 /* line 85, assets/scss/ui/_navbar.scss */
-.navbar ul {
+.menu-primary-navigation-container ul {
   display: table;
   vertical-align: middle;
   margin: 0;
@@ -5331,7 +5331,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 85, assets/scss/ui/_navbar.scss */
-  .navbar ul {
+  .menu-primary-navigation-container ul {
     position: absolute;
     display: block;
     width: 100% !important;
@@ -5344,7 +5344,7 @@ img {
     background: #3b9150;
   }
   /* line 103, assets/scss/ui/_navbar.scss */
-  .navbar ul.active {
+  .menu-primary-navigation-container ul.active {
     height: auto;
     max-height: 600px;
     z-index: 999998;
@@ -5358,7 +5358,7 @@ img {
   }
 }
 /* line 112, assets/scss/ui/_navbar.scss */
-.navbar ul li {
+.menu-primary-navigation-container ul li {
   display: table-cell;
   text-align: center;
   padding-bottom: 0;
@@ -5368,7 +5368,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 112, assets/scss/ui/_navbar.scss */
-  .navbar ul li {
+  .menu-primary-navigation-container ul li {
     display: block;
     position: relative;
     min-height: 50px;
@@ -5386,7 +5386,7 @@ img {
   }
 }
 /* line 132, assets/scss/ui/_navbar.scss */
-.navbar ul li > a {
+.menu-primary-navigation-container ul li > a {
   display: block;
   padding: 0 16px;
   white-space: nowrap;
@@ -5398,32 +5398,32 @@ img {
   font-size: 1rem;
 }
 /* line 141, assets/scss/ui/_navbar.scss */
-.navbar ul li > a i.icon-popup {
+.menu-primary-navigation-container ul li > a i.icon-popup {
   position: absolute;
 }
 /* line 145, assets/scss/ui/_navbar.scss */
-.navbar ul li .btn {
+.menu-primary-navigation-container ul li .btn {
   border-color: #16361e !important;
 }
 /* line 148, assets/scss/ui/_navbar.scss */
-.navbar ul li.field {
+.menu-primary-navigation-container ul li.field {
   margin-bottom: 0 !important;
   margin-right: 0;
 }
 @media only screen and (max-width: 767px) {
   /* line 148, assets/scss/ui/_navbar.scss */
-  .navbar ul li.field {
+  .menu-primary-navigation-container ul li.field {
     padding: 0 20px;
   }
 }
 /* line 154, assets/scss/ui/_navbar.scss */
-.navbar ul li.field input.search {
+.menu-primary-navigation-container ul li.field input.search {
   background: #255a32;
   border: none;
   color: #f2f2f2;
 }
 /* line 160, assets/scss/ui/_navbar.scss */
-.navbar ul li .dropdown {
+.menu-primary-navigation-container ul li .dropdown {
   width: auto;
   min-width: 0;
   max-width: 320px;
@@ -5435,7 +5435,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 172, assets/scss/ui/_navbar.scss */
-  .navbar ul li .dropdown {
+  .menu-primary-navigation-container ul li .dropdown {
     width: 100%;
     max-width: 100%;
     position: relative;
@@ -5444,11 +5444,11 @@ img {
     box-shadow: none !important;
   }
   /* line 178, assets/scss/ui/_navbar.scss */
-  .navbar ul li.active .dropdown {
+  .menu-primary-navigation-container ul li.active .dropdown {
     border-bottom: 1px solid #337f46;
   }
   /* line 181, assets/scss/ui/_navbar.scss */
-  .navbar ul li.active .dropdown ul {
+  .menu-primary-navigation-container ul li.active .dropdown ul {
     position: relative;
     top: 0;
     background: #36864a;
@@ -5461,28 +5461,28 @@ img {
     box-shadow: none !important;
   }
   /* line 190, assets/scss/ui/_navbar.scss */
-  .navbar ul li.active .dropdown ul li {
+  .menu-primary-navigation-container ul li.active .dropdown ul li {
     min-height: 50px;
     border-bottom: #3b9150;
   }
   /* line 193, assets/scss/ui/_navbar.scss */
-  .navbar ul li.active .dropdown ul li a {
+  .menu-primary-navigation-container ul li.active .dropdown ul li a {
     color: white;
     border-bottom: 1px solid #337f46;
   }
   /* line 196, assets/scss/ui/_navbar.scss */
-  .navbar ul li.active .dropdown ul li a:hover {
+  .menu-primary-navigation-container ul li.active .dropdown ul li a:hover {
     color: #3085d6;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 939px) {
   /* line 207, assets/scss/ui/_navbar.scss */
-  .navbar > ul > li > .btn a {
+  .menu-primary-navigation-container > ul > li > .btn a {
     padding: 0 10px 0 10px !important;
   }
   /* line 210, assets/scss/ui/_navbar.scss */
-  .navbar ul > li .dropdown ul li.active .dropdown {
+  .menu-primary-navigation-container ul > li .dropdown ul li.active .dropdown {
     left: -320px;
   }
 }
@@ -5499,7 +5499,7 @@ img {
 }
 
 /* line 225, assets/scss/ui/_navbar.scss */
-.pretty.navbar {
+.pretty.menu-primary-navigation-container {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80cb92), color-stop(100%, #337f46));
   background-image: -webkit-linear-gradient(#80cb92, #337f46);
   background-image: -moz-linear-gradient(#80cb92, #337f46);
@@ -5512,7 +5512,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 232, assets/scss/ui/_navbar.scss */
-  .pretty.navbar a.toggle {
+  .pretty.menu-primary-navigation-container a.toggle {
     border: 1px solid #3b9150;
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80cb92), color-stop(100%, #42a35a));
     background-image: -webkit-linear-gradient(#80cb92, #42a35a);
@@ -5524,11 +5524,11 @@ img {
     box-shadow: inset 0 1px 2px #92d3a2, inset 0 -1px 1px #49b564, inset 1px 0 1px #49b564, inset -1px 0 1px #49b564, 0 1px 1px #5bbd73;
   }
   /* line 240, assets/scss/ui/_navbar.scss */
-  .pretty.navbar a.toggle i {
+  .pretty.menu-primary-navigation-container a.toggle i {
     text-shadow: 0 1px 1px #255a32;
   }
   /* line 243, assets/scss/ui/_navbar.scss */
-  .pretty.navbar a.toggle:hover {
+  .pretty.menu-primary-navigation-container a.toggle:hover {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #92d3a2), color-stop(100%, #49b564));
     background-image: -webkit-linear-gradient(#92d3a2, #49b564);
     background-image: -moz-linear-gradient(#92d3a2, #49b564);
@@ -5536,7 +5536,7 @@ img {
     background-image: linear-gradient(#92d3a2, #49b564);
   }
   /* line 246, assets/scss/ui/_navbar.scss */
-  .pretty.navbar a.toggle:active, .pretty.navbar a.toggle.active {
+  .pretty.menu-primary-navigation-container a.toggle:active, .pretty.menu-primary-navigation-container a.toggle.active {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3b9150), color-stop(100%, #42a35a));
     background-image: -webkit-linear-gradient(#3b9150, #42a35a);
     background-image: -moz-linear-gradient(#3b9150, #42a35a);
@@ -5548,7 +5548,7 @@ img {
   }
 }
 /* line 252, assets/scss/ui/_navbar.scss */
-.pretty.navbar.row {
+.pretty.menu-primary-navigation-container.row {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -5557,7 +5557,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 252, assets/scss/ui/_navbar.scss */
-  .pretty.navbar.row {
+  .pretty.menu-primary-navigation-container.row {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -5566,7 +5566,7 @@ img {
   }
 }
 /* line 258, assets/scss/ui/_navbar.scss */
-.pretty.navbar ul li.field input.search {
+.pretty.menu-primary-navigation-container ul li.field input.search {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #255a32), color-stop(100%, #45aa5e));
   background-image: -webkit-linear-gradient(#255a32, #45aa5e);
   background-image: -moz-linear-gradient(#255a32, #45aa5e);
@@ -5579,14 +5579,14 @@ img {
   /* Remove this line if you dont want a dropshadow on your navigation*/
 }
 /* line 263, assets/scss/ui/_navbar.scss */
-.pretty.navbar > ul > li:first-child, .pretty.navbar .pretty.navbar > ul > li:first-child a:hover {
+.pretty.menu-primary-navigation-container > ul > li:first-child, .pretty.menu-primary-navigation-container .pretty.menu-primary-navigation-container > ul > li:first-child a:hover {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
 /* line 270, assets/scss/ui/_navbar.scss */
-.navbar li .dropdown {
+.menu-primary-navigation-container li .dropdown {
   width: auto;
   min-width: 0;
   max-width: 320px;
@@ -5598,7 +5598,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 281, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown .dropdown {
+  .menu-primary-navigation-container li .dropdown .dropdown {
     width: 100%;
     max-width: 100%;
     position: relative;
@@ -5607,11 +5607,11 @@ img {
     box-shadow: none !important;
   }
   /* line 287, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown.active .dropdown {
+  .menu-primary-navigation-container li .dropdown.active .dropdown {
     border-bottom: 1px solid #337f46;
   }
   /* line 290, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown.active .dropdown ul {
+  .menu-primary-navigation-container li .dropdown.active .dropdown ul {
     position: relative;
     top: 0;
     background: #36864a;
@@ -5624,28 +5624,28 @@ img {
     box-shadow: none !important;
   }
   /* line 299, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown.active .dropdown ul li {
+  .menu-primary-navigation-container li .dropdown.active .dropdown ul li {
     min-height: 50px;
     border-bottom: #3b9150;
   }
   /* line 302, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown.active .dropdown ul li a {
+  .menu-primary-navigation-container li .dropdown.active .dropdown ul li a {
     color: white;
     border-bottom: 1px solid #337f46;
   }
   /* line 305, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown.active .dropdown ul li a:hover {
+  .menu-primary-navigation-container li .dropdown.active .dropdown ul li a:hover {
     color: #3085d6;
   }
 }
 
 /* line 312, assets/scss/ui/_navbar.scss */
-.navbar li .dropdown ul {
+.menu-primary-navigation-container li .dropdown ul {
   margin: 0;
   display: block;
 }
 /* line 315, assets/scss/ui/_navbar.scss */
-.navbar li .dropdown ul > li {
+.menu-primary-navigation-container li .dropdown ul > li {
   position: relative;
   display: block;
   width: 100%;
@@ -5660,13 +5660,13 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 939px) {
   /* line 315, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown ul > li {
+  .menu-primary-navigation-container li .dropdown ul > li {
     max-width: 320px;
     word-wrap: break-word;
   }
 }
 /* line 327, assets/scss/ui/_navbar.scss */
-.navbar li .dropdown ul > li a {
+.menu-primary-navigation-container li .dropdown ul > li a {
   display: block;
   padding: 0 20px;
   color: #3085d6;
@@ -5677,17 +5677,17 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 327, assets/scss/ui/_navbar.scss */
-  .navbar li .dropdown ul > li a {
+  .menu-primary-navigation-container li .dropdown ul > li a {
     padding: 0 20px;
   }
 }
 /* line 338, assets/scss/ui/_navbar.scss */
-.navbar li .dropdown ul > li .dropdown {
+.menu-primary-navigation-container li .dropdown ul > li .dropdown {
   display: none;
   background: white;
 }
 /* line 343, assets/scss/ui/_navbar.scss */
-.navbar li .dropdown ul li:first-child a {
+.menu-primary-navigation-container li .dropdown ul li:first-child a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -5696,16 +5696,16 @@ img {
 }
 
 /* line 349, assets/scss/ui/_navbar.scss */
-.gumby-no-touch .navbar ul li:hover > a,
-.gumby-touch .navbar ul li.active > a {
+.gumby-no-touch .menu-primary-navigation-container ul li:hover > a,
+.gumby-touch .menu-primary-navigation-container ul li.active > a {
   position: relative;
   background: #868d92;
   z-index: 1000;
 }
 
 /* line 356, assets/scss/ui/_navbar.scss */
-.gumby-no-touch .navbar ul li:hover .dropdown,
-.gumby-touch .navbar ul li.active .dropdown {
+.gumby-no-touch .menu-primary-navigation-container ul li:hover .dropdown,
+.gumby-touch .menu-primary-navigation-container ul li.active .dropdown {
   min-height: 50px;
   max-height: 561px;
   overflow: visible;
@@ -5719,7 +5719,7 @@ img {
 }
 
 /* line 367, assets/scss/ui/_navbar.scss */
-.gumby-no-touch .navbar ul li:hover .dropdown ul {
+.gumby-no-touch .menu-primary-navigation-container ul li:hover .dropdown ul {
   position: relative;
   top: 0;
   min-height: 50px;
@@ -5735,28 +5735,28 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 367, assets/scss/ui/_navbar.scss */
-  .gumby-no-touch .navbar ul li:hover .dropdown ul {
+  .gumby-no-touch .menu-primary-navigation-container ul li:hover .dropdown ul {
     overflow: auto;
     background: #36864a;
   }
   /* line 378, assets/scss/ui/_navbar.scss */
-  .gumby-no-touch .navbar ul li:hover .dropdown ul li {
+  .gumby-no-touch .menu-primary-navigation-container ul li:hover .dropdown ul li {
     border-bottom: #3b9150;
   }
   /* line 380, assets/scss/ui/_navbar.scss */
-  .gumby-no-touch .navbar ul li:hover .dropdown ul li a {
+  .gumby-no-touch .menu-primary-navigation-container ul li:hover .dropdown ul li a {
     color: white;
     border-bottom: 1px solid #337f46;
   }
   /* line 383, assets/scss/ui/_navbar.scss */
-  .gumby-no-touch .navbar ul li:hover .dropdown ul li a:hover {
+  .gumby-no-touch .menu-primary-navigation-container ul li:hover .dropdown ul li a:hover {
     color: #3085d6;
   }
 }
 
 /* line 390, assets/scss/ui/_navbar.scss */
-.gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown,
-.gumby-touch .navbar li .dropdown ul > li.active .dropdown {
+.gumby-no-touch .menu-primary-navigation-container li .dropdown ul > li:hover .dropdown,
+.gumby-touch .menu-primary-navigation-container li .dropdown ul > li.active .dropdown {
   border-top: none;
   display: block;
   position: absolute;
@@ -5767,25 +5767,25 @@ img {
 }
 @media only screen and (max-width: 767px) {
   /* line 390, assets/scss/ui/_navbar.scss */
-  .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown,
-  .gumby-touch .navbar li .dropdown ul > li.active .dropdown {
+  .gumby-no-touch .menu-primary-navigation-container li .dropdown ul > li:hover .dropdown,
+  .gumby-touch .menu-primary-navigation-container li .dropdown ul > li.active .dropdown {
     position: relative;
     left: 0;
   }
   /* line 401, assets/scss/ui/_navbar.scss */
-  .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown ul,
-  .gumby-touch .navbar li .dropdown ul > li.active .dropdown ul {
+  .gumby-no-touch .menu-primary-navigation-container li .dropdown ul > li:hover .dropdown ul,
+  .gumby-touch .menu-primary-navigation-container li .dropdown ul > li.active .dropdown ul {
     background: #2c6d3c !important;
   }
 }
 
 /* line 407, assets/scss/ui/_navbar.scss */
-.gumby-no-touch .navbar li .dropdown ul li a:hover {
+.gumby-no-touch .menu-primary-navigation-container li .dropdown ul li a:hover {
   background: #f2f2f2;
 }
 
 /* line 411, assets/scss/ui/_navbar.scss */
-.gumby-touch .navbar a:hover {
+.gumby-touch .menu-primary-navigation-container a:hover {
   color: white !important;
 }
 
@@ -6123,7 +6123,7 @@ img {
   border-radius: 0;
 }
 /* line 112, assets/scss/ui/_buttons.scss */
-.btn.metro.rounded, .metro .rounded.btn, .metro .rounded.skiplink, .rounded.skiplink.metro:hover, .rounded.skiplink.metro:active, .skiplink.metro.rounded {
+.btn.metro.rounded, .metro .rounded.btn, .metro .rounded.skiplink, .metro .rounded.btn:hover, .metro .rounded.skiplink:hover, .rounded.skiplink.metro:hover, .metro .rounded.btn:active, .metro .rounded.skiplink:active, .rounded.skiplink.metro:active, .skiplink.metro.rounded {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -6139,7 +6139,7 @@ img {
   border-radius: 4px;
 }
 /* line 117, assets/scss/ui/_buttons.scss */
-.btn.pretty.squared, .pretty .squared.btn, .pretty .squared.skiplink, .squared.skiplink.pretty:hover, .squared.skiplink.pretty:active, .skiplink.pretty.squared {
+.btn.pretty.squared, .pretty .squared.btn, .pretty .squared.skiplink, .pretty .squared.btn:hover, .pretty .squared.skiplink:hover, .squared.skiplink.pretty:hover, .pretty .squared.btn:active, .pretty .squared.skiplink:active, .squared.skiplink.pretty:active, .skiplink.pretty.squared {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -6148,7 +6148,7 @@ img {
 }
 
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.primary, .pretty .primary.btn, .pretty .primary.skiplink, .primary.skiplink.pretty:hover, .primary.skiplink.pretty:active, .skiplink.pretty.primary {
+.btn.pretty.primary, .pretty .primary.btn, .pretty .primary.skiplink, .pretty .primary.btn:hover, .pretty .primary.skiplink:hover, .primary.skiplink.pretty:hover, .pretty .primary.btn:active, .pretty .primary.skiplink:active, .primary.skiplink.pretty:active, .skiplink.pretty.primary {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #85b7e7), color-stop(100%, #2a85dc));
   background-image: -webkit-linear-gradient(#85b7e7, #2a85dc);
   background-image: -moz-linear-gradient(#85b7e7, #2a85dc);
@@ -6160,7 +6160,7 @@ img {
   border: 1px solid #1f5e9b;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .primary.btn:hover, .pretty .primary.skiplink:hover, .primary.btn.pretty:hover, .primary.skiplink.pretty:hover, .skiplink.pretty.primary:hover {
+.pretty .primary.btn:hover, .pretty .primary.skiplink:hover, .primary.btn.pretty:hover, .primary.skiplink.pretty:hover, .pretty .primary.btn:hover:active, .pretty .primary.skiplink:hover:active, .skiplink.pretty.primary:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a2d4fc), color-stop(100%, #54b2fe));
   background-image: -webkit-linear-gradient(#a2d4fc, #54b2fe);
   background-image: -moz-linear-gradient(#a2d4fc, #54b2fe);
@@ -6172,7 +6172,7 @@ img {
   border: 1px solid #0e90f8;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .primary.btn:active, .pretty .primary.skiplink:active, .primary.btn.pretty:active, .primary.skiplink.pretty:active, .skiplink.pretty.primary:active {
+.pretty .primary.btn:active, .pretty .primary.skiplink:active, .pretty .primary.btn:active:hover, .pretty .primary.skiplink:active:hover, .primary.btn.pretty:active, .primary.skiplink.pretty:active, .skiplink.pretty.primary:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a85dc), color-stop(100%, #85b7e7));
   background-image: -webkit-linear-gradient(#2a85dc, #85b7e7);
   background-image: -moz-linear-gradient(#2a85dc, #85b7e7);
@@ -6183,11 +6183,11 @@ img {
   box-shadow: inset 0 0 3px white;
 }
 /* line 154, assets/scss/ui/_buttons.scss */
-.btn.pretty.primary a, .pretty .primary.btn a, .pretty .primary.skiplink a, .primary.skiplink.pretty:hover a, .primary.skiplink.pretty:active a, .btn.pretty.primary input, .pretty .primary.btn input, .pretty .primary.skiplink input, .primary.skiplink.pretty:hover input, .primary.skiplink.pretty:active input, .btn.pretty.primary button, .pretty .primary.btn button, .pretty .primary.skiplink button, .primary.skiplink.pretty:hover button, .primary.skiplink.pretty:active button, .skiplink.pretty.primary a, .skiplink.pretty.primary input, .skiplink.pretty.primary button {
+.btn.pretty.primary a, .pretty .primary.btn a, .pretty .primary.skiplink a, .pretty .primary.btn:hover a, .pretty .primary.skiplink:hover a, .primary.skiplink.pretty:hover a, .pretty .primary.btn:active a, .pretty .primary.skiplink:active a, .primary.skiplink.pretty:active a, .btn.pretty.primary input, .pretty .primary.btn input, .pretty .primary.skiplink input, .pretty .primary.btn:hover input, .pretty .primary.skiplink:hover input, .primary.skiplink.pretty:hover input, .pretty .primary.btn:active input, .pretty .primary.skiplink:active input, .primary.skiplink.pretty:active input, .btn.pretty.primary button, .pretty .primary.btn button, .pretty .primary.skiplink button, .pretty .primary.btn:hover button, .pretty .primary.skiplink:hover button, .primary.skiplink.pretty:hover button, .pretty .primary.btn:active button, .pretty .primary.skiplink:active button, .primary.skiplink.pretty:active button, .skiplink.pretty.primary a, .skiplink.pretty.primary input, .skiplink.pretty.primary button {
   text-shadow: 0 1px 1px #1a5186;
 }
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.secondary, .pretty .secondary.btn, .pretty .secondary.skiplink, .secondary.skiplink.pretty:hover, .secondary.skiplink.pretty:active, .skiplink.pretty.secondary {
+.btn.pretty.secondary, .pretty .secondary.btn, .pretty .secondary.skiplink, .pretty .secondary.btn:hover, .pretty .secondary.skiplink:hover, .secondary.skiplink.pretty:hover, .pretty .secondary.btn:active, .pretty .secondary.skiplink:active, .secondary.skiplink.pretty:active, .skiplink.pretty.secondary {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80cb92), color-stop(100%, #3ca957));
   background-image: -webkit-linear-gradient(#80cb92, #3ca957);
   background-image: -moz-linear-gradient(#80cb92, #3ca957);
@@ -6199,7 +6199,7 @@ img {
   border: 1px solid #2c6d3c;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .secondary.btn:hover, .pretty .secondary.skiplink:hover, .secondary.btn.pretty:hover, .secondary.skiplink.pretty:hover, .skiplink.pretty.secondary:hover {
+.pretty .secondary.btn:hover, .pretty .secondary.skiplink:hover, .secondary.btn.pretty:hover, .secondary.skiplink.pretty:hover, .pretty .secondary.btn:hover:active, .pretty .secondary.skiplink:hover:active, .skiplink.pretty.secondary:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a1d3ad), color-stop(100%, #68c07d));
   background-image: -webkit-linear-gradient(#a1d3ad, #68c07d);
   background-image: -moz-linear-gradient(#a1d3ad, #68c07d);
@@ -6211,7 +6211,7 @@ img {
   border: 1px solid #469659;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .secondary.btn:active, .pretty .secondary.skiplink:active, .secondary.btn.pretty:active, .secondary.skiplink.pretty:active, .skiplink.pretty.secondary:active {
+.pretty .secondary.btn:active, .pretty .secondary.skiplink:active, .pretty .secondary.btn:active:hover, .pretty .secondary.skiplink:active:hover, .secondary.btn.pretty:active, .secondary.skiplink.pretty:active, .skiplink.pretty.secondary:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3ca957), color-stop(100%, #80cb92));
   background-image: -webkit-linear-gradient(#3ca957, #80cb92);
   background-image: -moz-linear-gradient(#3ca957, #80cb92);
@@ -6222,11 +6222,11 @@ img {
   box-shadow: inset 0 0 3px #ecf8ef;
 }
 /* line 154, assets/scss/ui/_buttons.scss */
-.btn.pretty.secondary a, .pretty .secondary.btn a, .pretty .secondary.skiplink a, .secondary.skiplink.pretty:hover a, .secondary.skiplink.pretty:active a, .btn.pretty.secondary input, .pretty .secondary.btn input, .pretty .secondary.skiplink input, .secondary.skiplink.pretty:hover input, .secondary.skiplink.pretty:active input, .btn.pretty.secondary button, .pretty .secondary.btn button, .pretty .secondary.skiplink button, .secondary.skiplink.pretty:hover button, .secondary.skiplink.pretty:active button, .skiplink.pretty.secondary a, .skiplink.pretty.secondary input, .skiplink.pretty.secondary button {
+.btn.pretty.secondary a, .pretty .secondary.btn a, .pretty .secondary.skiplink a, .pretty .secondary.btn:hover a, .pretty .secondary.skiplink:hover a, .secondary.skiplink.pretty:hover a, .pretty .secondary.btn:active a, .pretty .secondary.skiplink:active a, .secondary.skiplink.pretty:active a, .btn.pretty.secondary input, .pretty .secondary.btn input, .pretty .secondary.skiplink input, .pretty .secondary.btn:hover input, .pretty .secondary.skiplink:hover input, .secondary.skiplink.pretty:hover input, .pretty .secondary.btn:active input, .pretty .secondary.skiplink:active input, .secondary.skiplink.pretty:active input, .btn.pretty.secondary button, .pretty .secondary.btn button, .pretty .secondary.skiplink button, .pretty .secondary.btn:hover button, .pretty .secondary.skiplink:hover button, .secondary.skiplink.pretty:hover button, .pretty .secondary.btn:active button, .pretty .secondary.skiplink:active button, .secondary.skiplink.pretty:active button, .skiplink.pretty.secondary a, .skiplink.pretty.secondary input, .skiplink.pretty.secondary button {
   text-shadow: 0 1px 1px #255a32;
 }
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.default, .pretty .default.btn, .pretty .default.skiplink, .default.skiplink.pretty:hover, .default.skiplink.pretty:active, .skiplink.pretty.default {
+.btn.pretty.default, .pretty .default.btn, .pretty .default.skiplink, .pretty .default.btn:hover, .pretty .default.skiplink:hover, .default.skiplink.pretty:hover, .pretty .default.btn:active, .pretty .default.skiplink:active, .default.skiplink.pretty:active, .skiplink.pretty.default {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f3f1f1));
   background-image: -webkit-linear-gradient(#ffffff, #f3f1f1);
   background-image: -moz-linear-gradient(#ffffff, #f3f1f1);
@@ -6238,7 +6238,7 @@ img {
   border: 1px solid #cccccc;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .default.btn:hover, .pretty .default.skiplink:hover, .default.btn.pretty:hover, .default.skiplink.pretty:hover, .skiplink.pretty.default:hover {
+.pretty .default.btn:hover, .pretty .default.skiplink:hover, .default.btn.pretty:hover, .default.skiplink.pretty:hover, .pretty .default.btn:hover:active, .pretty .default.skiplink:hover:active, .skiplink.pretty.default:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(#ffffff, #ffffff);
   background-image: -moz-linear-gradient(#ffffff, #ffffff);
@@ -6250,7 +6250,7 @@ img {
   border: 1px solid #d9d9d9;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .default.btn:active, .pretty .default.skiplink:active, .default.btn.pretty:active, .default.skiplink.pretty:active, .skiplink.pretty.default:active {
+.pretty .default.btn:active, .pretty .default.skiplink:active, .pretty .default.btn:active:hover, .pretty .default.skiplink:active:hover, .default.btn.pretty:active, .default.skiplink.pretty:active, .skiplink.pretty.default:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f1f1), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(#f3f1f1, #ffffff);
   background-image: -moz-linear-gradient(#f3f1f1, #ffffff);
@@ -6261,11 +6261,11 @@ img {
   box-shadow: inset 0 0 3px white;
 }
 /* line 143, assets/scss/ui/_buttons.scss */
-.btn.pretty.default a, .pretty .default.btn a, .pretty .default.skiplink a, .default.skiplink.pretty:hover a, .default.skiplink.pretty:active a, .btn.pretty.default input, .pretty .default.btn input, .pretty .default.skiplink input, .default.skiplink.pretty:hover input, .default.skiplink.pretty:active input, .btn.pretty.default button, .pretty .default.btn button, .pretty .default.skiplink button, .default.skiplink.pretty:hover button, .default.skiplink.pretty:active button, .skiplink.pretty.default a, .skiplink.pretty.default input, .skiplink.pretty.default button {
+.btn.pretty.default a, .pretty .default.btn a, .pretty .default.skiplink a, .pretty .default.btn:hover a, .pretty .default.skiplink:hover a, .default.skiplink.pretty:hover a, .pretty .default.btn:active a, .pretty .default.skiplink:active a, .default.skiplink.pretty:active a, .btn.pretty.default input, .pretty .default.btn input, .pretty .default.skiplink input, .pretty .default.btn:hover input, .pretty .default.skiplink:hover input, .default.skiplink.pretty:hover input, .pretty .default.btn:active input, .pretty .default.skiplink:active input, .default.skiplink.pretty:active input, .btn.pretty.default button, .pretty .default.btn button, .pretty .default.skiplink button, .pretty .default.btn:hover button, .pretty .default.skiplink:hover button, .default.skiplink.pretty:hover button, .pretty .default.btn:active button, .pretty .default.skiplink:active button, .default.skiplink.pretty:active button, .skiplink.pretty.default a, .skiplink.pretty.default input, .skiplink.pretty.default button {
   text-shadow: 0 1px 1px white;
 }
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.info, .pretty .info.btn, .pretty .info.skiplink, .info.skiplink.pretty:hover, .info.skiplink.pretty:active, .skiplink.pretty.info {
+.btn.pretty.info, .pretty .info.btn, .pretty .info.skiplink, .pretty .info.btn:hover, .pretty .info.skiplink:hover, .info.skiplink.pretty:hover, .pretty .info.btn:active, .pretty .info.skiplink:active, .info.skiplink.pretty:active, .skiplink.pretty.info {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7b8085), color-stop(100%, #464d54));
   background-image: -webkit-linear-gradient(#7b8085, #464d54);
   background-image: -moz-linear-gradient(#7b8085, #464d54);
@@ -6277,7 +6277,7 @@ img {
   border: 1px solid #252728;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .info.btn:hover, .pretty .info.skiplink:hover, .info.btn.pretty:hover, .info.skiplink.pretty:hover, .skiplink.pretty.info:hover {
+.pretty .info.btn:hover, .pretty .info.skiplink:hover, .info.btn.pretty:hover, .info.skiplink.pretty:hover, .pretty .info.btn:hover:active, .pretty .info.skiplink:hover:active, .skiplink.pretty.info:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aeb3b6), color-stop(100%, #808e98));
   background-image: -webkit-linear-gradient(#aeb3b6, #808e98);
   background-image: -moz-linear-gradient(#aeb3b6, #808e98);
@@ -6289,7 +6289,7 @@ img {
   border: 1px solid #60676b;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .info.btn:active, .pretty .info.skiplink:active, .info.btn.pretty:active, .info.skiplink.pretty:active, .skiplink.pretty.info:active {
+.pretty .info.btn:active, .pretty .info.skiplink:active, .pretty .info.btn:active:hover, .pretty .info.skiplink:active:hover, .info.btn.pretty:active, .info.skiplink.pretty:active, .skiplink.pretty.info:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #464d54), color-stop(100%, #7b8085));
   background-image: -webkit-linear-gradient(#464d54, #7b8085);
   background-image: -moz-linear-gradient(#464d54, #7b8085);
@@ -6300,11 +6300,11 @@ img {
   box-shadow: inset 0 0 3px #cbcdce;
 }
 /* line 154, assets/scss/ui/_buttons.scss */
-.btn.pretty.info a, .pretty .info.btn a, .pretty .info.skiplink a, .info.skiplink.pretty:hover a, .info.skiplink.pretty:active a, .btn.pretty.info input, .pretty .info.btn input, .pretty .info.skiplink input, .info.skiplink.pretty:hover input, .info.skiplink.pretty:active input, .btn.pretty.info button, .pretty .info.btn button, .pretty .info.skiplink button, .info.skiplink.pretty:hover button, .info.skiplink.pretty:active button, .skiplink.pretty.info a, .skiplink.pretty.info input, .skiplink.pretty.info button {
+.btn.pretty.info a, .pretty .info.btn a, .pretty .info.skiplink a, .pretty .info.btn:hover a, .pretty .info.skiplink:hover a, .info.skiplink.pretty:hover a, .pretty .info.btn:active a, .pretty .info.skiplink:active a, .info.skiplink.pretty:active a, .btn.pretty.info input, .pretty .info.btn input, .pretty .info.skiplink input, .pretty .info.btn:hover input, .pretty .info.skiplink:hover input, .info.skiplink.pretty:hover input, .pretty .info.btn:active input, .pretty .info.skiplink:active input, .info.skiplink.pretty:active input, .btn.pretty.info button, .pretty .info.btn button, .pretty .info.skiplink button, .pretty .info.btn:hover button, .pretty .info.skiplink:hover button, .info.skiplink.pretty:hover button, .pretty .info.btn:active button, .pretty .info.skiplink:active button, .info.skiplink.pretty:active button, .skiplink.pretty.info a, .skiplink.pretty.info input, .skiplink.pretty.info button {
   text-shadow: 0 1px 1px #191a1b;
 }
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.danger, .pretty .danger.btn, .pretty .danger.skiplink, .danger.skiplink.pretty:hover, .danger.skiplink.pretty:active, .skiplink.pretty.danger {
+.btn.pretty.danger, .pretty .danger.btn, .pretty .danger.skiplink, .pretty .danger.btn:hover, .pretty .danger.skiplink:hover, .danger.skiplink.pretty:hover, .pretty .danger.btn:active, .pretty .danger.skiplink:active, .danger.skiplink.pretty:active, .skiplink.pretty.danger {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #df8989), color-stop(100%, #d03232));
   background-image: -webkit-linear-gradient(#df8989, #d03232);
   background-image: -moz-linear-gradient(#df8989, #d03232);
@@ -6316,7 +6316,7 @@ img {
   border: 1px solid #8f2626;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .danger.btn:hover, .pretty .danger.skiplink:hover, .danger.btn.pretty:hover, .danger.skiplink.pretty:hover, .skiplink.pretty.danger:hover {
+.pretty .danger.btn:hover, .pretty .danger.skiplink:hover, .danger.btn.pretty:hover, .danger.skiplink.pretty:hover, .pretty .danger.btn:hover:active, .pretty .danger.skiplink:hover:active, .skiplink.pretty.danger:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f79696), color-stop(100%, #f64a4a));
   background-image: -webkit-linear-gradient(#f79696, #f64a4a);
   background-image: -moz-linear-gradient(#f79696, #f64a4a);
@@ -6328,7 +6328,7 @@ img {
   border: 1px solid #e21212;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .danger.btn:active, .pretty .danger.skiplink:active, .danger.btn.pretty:active, .danger.skiplink.pretty:active, .skiplink.pretty.danger:active {
+.pretty .danger.btn:active, .pretty .danger.skiplink:active, .pretty .danger.btn:active:hover, .pretty .danger.skiplink:active:hover, .danger.btn.pretty:active, .danger.skiplink.pretty:active, .skiplink.pretty.danger:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d03232), color-stop(100%, #df8989));
   background-image: -webkit-linear-gradient(#d03232, #df8989);
   background-image: -moz-linear-gradient(#d03232, #df8989);
@@ -6339,11 +6339,11 @@ img {
   box-shadow: inset 0 0 3px white;
 }
 /* line 154, assets/scss/ui/_buttons.scss */
-.btn.pretty.danger a, .pretty .danger.btn a, .pretty .danger.skiplink a, .danger.skiplink.pretty:hover a, .danger.skiplink.pretty:active a, .btn.pretty.danger input, .pretty .danger.btn input, .pretty .danger.skiplink input, .danger.skiplink.pretty:hover input, .danger.skiplink.pretty:active input, .btn.pretty.danger button, .pretty .danger.btn button, .pretty .danger.skiplink button, .danger.skiplink.pretty:hover button, .danger.skiplink.pretty:active button, .skiplink.pretty.danger a, .skiplink.pretty.danger input, .skiplink.pretty.danger button {
+.btn.pretty.danger a, .pretty .danger.btn a, .pretty .danger.skiplink a, .pretty .danger.btn:hover a, .pretty .danger.skiplink:hover a, .danger.skiplink.pretty:hover a, .pretty .danger.btn:active a, .pretty .danger.skiplink:active a, .danger.skiplink.pretty:active a, .btn.pretty.danger input, .pretty .danger.btn input, .pretty .danger.skiplink input, .pretty .danger.btn:hover input, .pretty .danger.skiplink:hover input, .danger.skiplink.pretty:hover input, .pretty .danger.btn:active input, .pretty .danger.skiplink:active input, .danger.skiplink.pretty:active input, .btn.pretty.danger button, .pretty .danger.btn button, .pretty .danger.skiplink button, .pretty .danger.btn:hover button, .pretty .danger.skiplink:hover button, .danger.skiplink.pretty:hover button, .pretty .danger.btn:active button, .pretty .danger.skiplink:active button, .danger.skiplink.pretty:active button, .skiplink.pretty.danger a, .skiplink.pretty.danger input, .skiplink.pretty.danger button {
   text-shadow: 0 1px 1px #7b2121;
 }
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.warning, .pretty .warning.btn, .pretty .warning.skiplink, .warning.skiplink.pretty:hover, .warning.skiplink.pretty:active, .skiplink.pretty.warning {
+.btn.pretty.warning, .pretty .warning.btn, .pretty .warning.skiplink, .pretty .warning.btn:hover, .pretty .warning.skiplink:hover, .warning.skiplink.pretty:hover, .pretty .warning.btn:active, .pretty .warning.skiplink:active, .warning.skiplink.pretty:active, .skiplink.pretty.warning {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbdca0), color-stop(100%, #fbba3a));
   background-image: -webkit-linear-gradient(#fbdca0, #fbba3a);
   background-image: -moz-linear-gradient(#fbdca0, #fbba3a);
@@ -6356,7 +6356,7 @@ img {
   color: #644405;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .warning.btn:hover, .pretty .warning.skiplink:hover, .warning.btn.pretty:hover, .warning.skiplink.pretty:hover, .skiplink.pretty.warning:hover {
+.pretty .warning.btn:hover, .pretty .warning.skiplink:hover, .warning.btn.pretty:hover, .warning.skiplink.pretty:hover, .pretty .warning.btn:hover:active, .pretty .warning.skiplink:hover:active, .skiplink.pretty.warning:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #feecca), color-stop(100%, #ffd37d));
   background-image: -webkit-linear-gradient(#feecca, #ffd37d);
   background-image: -moz-linear-gradient(#feecca, #ffd37d);
@@ -6368,7 +6368,7 @@ img {
   border: 1px solid #fcb834;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .warning.btn:active, .pretty .warning.skiplink:active, .warning.btn.pretty:active, .warning.skiplink.pretty:active, .skiplink.pretty.warning:active {
+.pretty .warning.btn:active, .pretty .warning.skiplink:active, .pretty .warning.btn:active:hover, .pretty .warning.skiplink:active:hover, .warning.btn.pretty:active, .warning.skiplink.pretty:active, .skiplink.pretty.warning:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbba3a), color-stop(100%, #fbdca0));
   background-image: -webkit-linear-gradient(#fbba3a, #fbdca0);
   background-image: -moz-linear-gradient(#fbba3a, #fbdca0);
@@ -6379,11 +6379,11 @@ img {
   box-shadow: inset 0 0 3px white;
 }
 /* line 149, assets/scss/ui/_buttons.scss */
-.btn.pretty.warning a, .pretty .warning.btn a, .pretty .warning.skiplink a, .warning.skiplink.pretty:hover a, .warning.skiplink.pretty:active a, .btn.pretty.warning input, .pretty .warning.btn input, .pretty .warning.skiplink input, .warning.skiplink.pretty:hover input, .warning.skiplink.pretty:active input, .btn.pretty.warning button, .pretty .warning.btn button, .pretty .warning.skiplink button, .warning.skiplink.pretty:hover button, .warning.skiplink.pretty:active button, .skiplink.pretty.warning a, .skiplink.pretty.warning input, .skiplink.pretty.warning button {
+.btn.pretty.warning a, .pretty .warning.btn a, .pretty .warning.skiplink a, .pretty .warning.btn:hover a, .pretty .warning.skiplink:hover a, .warning.skiplink.pretty:hover a, .pretty .warning.btn:active a, .pretty .warning.skiplink:active a, .warning.skiplink.pretty:active a, .btn.pretty.warning input, .pretty .warning.btn input, .pretty .warning.skiplink input, .pretty .warning.btn:hover input, .pretty .warning.skiplink:hover input, .warning.skiplink.pretty:hover input, .pretty .warning.btn:active input, .pretty .warning.skiplink:active input, .warning.skiplink.pretty:active input, .btn.pretty.warning button, .pretty .warning.btn button, .pretty .warning.skiplink button, .pretty .warning.btn:hover button, .pretty .warning.skiplink:hover button, .warning.skiplink.pretty:hover button, .pretty .warning.btn:active button, .pretty .warning.skiplink:active button, .warning.skiplink.pretty:active button, .skiplink.pretty.warning a, .skiplink.pretty.warning input, .skiplink.pretty.warning button {
   text-shadow: 0 1px 1px #fbdca0;
 }
 /* line 129, assets/scss/ui/_buttons.scss */
-.btn.pretty.success, .pretty .success.btn, .pretty .success.skiplink, .success.skiplink.pretty:hover, .success.skiplink.pretty:active, .skiplink.pretty.success {
+.btn.pretty.success, .pretty .success.btn, .pretty .success.skiplink, .pretty .success.btn:hover, .pretty .success.skiplink:hover, .success.skiplink.pretty:hover, .pretty .success.btn:active, .pretty .success.skiplink:active, .success.skiplink.pretty:active, .skiplink.pretty.success {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #91e26a), color-stop(100%, #56c620));
   background-image: -webkit-linear-gradient(#91e26a, #56c620);
   background-image: -moz-linear-gradient(#91e26a, #56c620);
@@ -6395,7 +6395,7 @@ img {
   border: 1px solid #3b8019;
 }
 /* line 133, assets/scss/ui/_buttons.scss */
-.pretty .success.btn:hover, .pretty .success.skiplink:hover, .success.btn.pretty:hover, .success.skiplink.pretty:hover, .skiplink.pretty.success:hover {
+.pretty .success.btn:hover, .pretty .success.skiplink:hover, .success.btn.pretty:hover, .success.skiplink.pretty:hover, .pretty .success.btn:hover:active, .pretty .success.skiplink:hover:active, .skiplink.pretty.success:hover {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #96e570), color-stop(100%, #64df29));
   background-image: -webkit-linear-gradient(#96e570, #64df29);
   background-image: -moz-linear-gradient(#96e570, #64df29);
@@ -6407,7 +6407,7 @@ img {
   border: 1px solid #479f1d;
 }
 /* line 138, assets/scss/ui/_buttons.scss */
-.pretty .success.btn:active, .pretty .success.skiplink:active, .success.btn.pretty:active, .success.skiplink.pretty:active, .skiplink.pretty.success:active {
+.pretty .success.btn:active, .pretty .success.skiplink:active, .pretty .success.btn:active:hover, .pretty .success.skiplink:active:hover, .success.btn.pretty:active, .success.skiplink.pretty:active, .skiplink.pretty.success:active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #56c620), color-stop(100%, #91e26a));
   background-image: -webkit-linear-gradient(#56c620, #91e26a);
   background-image: -moz-linear-gradient(#56c620, #91e26a);
@@ -6418,7 +6418,7 @@ img {
   box-shadow: inset 0 0 3px #f0fbea;
 }
 /* line 154, assets/scss/ui/_buttons.scss */
-.btn.pretty.success a, .pretty .success.btn a, .pretty .success.skiplink a, .success.skiplink.pretty:hover a, .success.skiplink.pretty:active a, .btn.pretty.success input, .pretty .success.btn input, .pretty .success.skiplink input, .success.skiplink.pretty:hover input, .success.skiplink.pretty:active input, .btn.pretty.success button, .pretty .success.btn button, .pretty .success.skiplink button, .success.skiplink.pretty:hover button, .success.skiplink.pretty:active button, .skiplink.pretty.success a, .skiplink.pretty.success input, .skiplink.pretty.success button {
+.btn.pretty.success a, .pretty .success.btn a, .pretty .success.skiplink a, .pretty .success.btn:hover a, .pretty .success.skiplink:hover a, .success.skiplink.pretty:hover a, .pretty .success.btn:active a, .pretty .success.skiplink:active a, .success.skiplink.pretty:active a, .btn.pretty.success input, .pretty .success.btn input, .pretty .success.skiplink input, .pretty .success.btn:hover input, .pretty .success.skiplink:hover input, .success.skiplink.pretty:hover input, .pretty .success.btn:active input, .pretty .success.skiplink:active input, .success.skiplink.pretty:active input, .btn.pretty.success button, .pretty .success.btn button, .pretty .success.skiplink button, .pretty .success.btn:hover button, .pretty .success.skiplink:hover button, .success.skiplink.pretty:hover button, .pretty .success.btn:active button, .pretty .success.skiplink:active button, .success.skiplink.pretty:active button, .skiplink.pretty.success a, .skiplink.pretty.success input, .skiplink.pretty.success button {
   text-shadow: 0 1px 1px #316b15;
 }
 
@@ -6446,7 +6446,7 @@ i[class*=" icon-"] {
   text-align: center;
 }
 
-/*! Just the infinity symbol used in log at top for fast loading */
+/* Just the infinity symbol used in log at top for fast loading */
 /* line 26, assets/scss/ui/_icons.scss */
 [class*="ai-"] {
   font-family: 'infinitum';
