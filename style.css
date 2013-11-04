@@ -9389,12 +9389,13 @@ img {
 i[class^="icon-"],
 i[class*=" icon-"] {
   font-family: "entypo";
+  font-style: normal;
   position: absolute;
   text-decoration: none;
   zoom: 1;
 }
 
-/* line 15, assets/scss/ui/_icons.scss */
+/* line 16, assets/scss/ui/_icons.scss */
 i[class^="icon-"],
 i[class*=" icon-"] {
   display: inline-block;
@@ -9405,7 +9406,7 @@ i[class*=" icon-"] {
 }
 
 /*! Just the infinity symbol used in log at top for fast loading */
-/* line 26, assets/scss/ui/_icons.scss */
+/* line 27, assets/scss/ui/_icons.scss */
 [class*="ai-"] {
   font-family: 'infinitum';
   speak: none;
@@ -9419,12 +9420,12 @@ i[class*=" icon-"] {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 40, assets/scss/ui/_icons.scss */
+/* line 41, assets/scss/ui/_icons.scss */
 .ai-infinity:before {
   content: "\221e";
 }
 
-/* line 47, assets/scss/ui/_icons.scss */
+/* line 48, assets/scss/ui/_icons.scss */
 [class*="ico-"] {
   font-family: "icomoon";
   speak: none;
@@ -9445,77 +9446,77 @@ i[class*=" icon-"] {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 69, assets/scss/ui/_icons.scss */
+/* line 70, assets/scss/ui/_icons.scss */
 .ico-github:before {
   content: "\e600";
 }
 
-/* line 72, assets/scss/ui/_icons.scss */
+/* line 73, assets/scss/ui/_icons.scss */
 .ico-twitter2:before {
   content: "\e601";
 }
 
-/* line 75, assets/scss/ui/_icons.scss */
+/* line 76, assets/scss/ui/_icons.scss */
 .ico-google-plus:before {
   content: "\e602";
 }
 
-/* line 78, assets/scss/ui/_icons.scss */
+/* line 79, assets/scss/ui/_icons.scss */
 .ico-feed:before {
   content: "\e603";
 }
 
-/* line 81, assets/scss/ui/_icons.scss */
+/* line 82, assets/scss/ui/_icons.scss */
 .ico-checkbox-checked:before {
   content: "\e604";
 }
 
-/* line 84, assets/scss/ui/_icons.scss */
+/* line 85, assets/scss/ui/_icons.scss */
 .ico-question-sign:before {
   content: "\3f";
 }
 
-/* line 87, assets/scss/ui/_icons.scss */
+/* line 88, assets/scss/ui/_icons.scss */
 .ico-email:before {
   content: "\1f4e7";
 }
 
-/* line 90, assets/scss/ui/_icons.scss */
+/* line 91, assets/scss/ui/_icons.scss */
 .ico-star:before {
   content: "\2605";
 }
 
-/* line 93, assets/scss/ui/_icons.scss */
+/* line 94, assets/scss/ui/_icons.scss */
 .ico-youtube-sign:before {
   content: "\e608";
 }
 
-/* line 96, assets/scss/ui/_icons.scss */
+/* line 97, assets/scss/ui/_icons.scss */
 .ico-link:before {
   content: "\e609";
 }
 
-/* line 99, assets/scss/ui/_icons.scss */
+/* line 100, assets/scss/ui/_icons.scss */
 .ico-home:before {
   content: "\e60a";
 }
 
-/* line 102, assets/scss/ui/_icons.scss */
+/* line 103, assets/scss/ui/_icons.scss */
 .ico-linkedin:before {
   content: "\e60b";
 }
 
-/* line 105, assets/scss/ui/_icons.scss */
+/* line 106, assets/scss/ui/_icons.scss */
 .ico-at:before {
   content: "\61";
 }
 
-/* line 108, assets/scss/ui/_icons.scss */
+/* line 109, assets/scss/ui/_icons.scss */
 .ico-chevron-sign-right:before {
   content: "\27b2";
 }
 
-/* line 111, assets/scss/ui/_icons.scss */
+/* line 112, assets/scss/ui/_icons.scss */
 .ico-stackexchange:before {
   content: "\e60e";
 }

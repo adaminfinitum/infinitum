@@ -14,9 +14,9 @@
 	<![endif]-->
 </head>
 <body <?php body_class(); ?>>
-	<nav class="navbar">
+	<nav id="navbar-main-nav" class="navbar">
 	    <div class="row">
-	        <a class="toggle" gumby-trigger="#navbar-main-nav #main-nav" href="#"><i class="icon-menu"></i></a>
+	        <a class="toggle" gumby-trigger="#navbar-main-nav #menu-primary-navigation" href="#"><i class="icon-menu"></i></a>
 	        <a class="logo" id="logo" href="/"><?php bloginfo( 'name' ); ?></a>
 		    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</div>

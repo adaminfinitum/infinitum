@@ -53,12 +53,13 @@ module.exports = function(grunt) {
                 options: {
                     sourceMap: 'assets/js/plugins.js.map',
                     sourceMappingURL: 'plugins.js.map',
-                    sourceMapPrefix: 2
+                    sourceMapPrefix: 2,
+                    mangle: false
                 },
                 files: {
                     'assets/js/plugins.min.js': [
-                        'assets/js/source/plugins.js',
                         'assets/js/gumby/libs/gumby.js',
+                        'assets/js/gumby/plugins.js',
                         'assets/js/gumby/libs/ui/gumby.retina.js',
                         'assets/js/gumby/libs/ui/gumby.fixed.js',
                         'assets/js/gumby/libs/ui/gumby.skiplink.js',
@@ -78,11 +79,14 @@ module.exports = function(grunt) {
                 options: {
                     sourceMap: 'assets/js/main.js.map',
                     sourceMappingURL: 'main.js.map',
-                    sourceMapPrefix: 2
+                    sourceMapPrefix: 2,
+                    mangle: false
                 },
                 files: {
                     'assets/js/main.min.js': [
-                        'assets/js/source/main.js'
+                        'assets/js/source/plugins.js',
+                        'assets/js/gumby/main.js',
+                        'assets/js/source/main.js',
                     ]
                 }
             }

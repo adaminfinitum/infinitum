@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="row clearfix">
 	<section id="main" role="main" class="eight columns">
 
 		<?php while ( have_posts() ) : the_post(); ?>
