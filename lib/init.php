@@ -76,7 +76,7 @@ function mb_setup() {
 	*****************************************/
 
 	// Add Post Formats Theme Support
-	// add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video') );
+	add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video') );
 
 	// Enqueue scripts
 	add_action( 'wp_enqueue_scripts', 'mb_scripts' );
@@ -86,7 +86,7 @@ function mb_setup() {
 	add_filter('style_loader_src', 'mb_remove_script_version', 15, 1);
 
 	// Remove Read More Jump
-	add_filter('the_content_more_link', 'mb_remove_more_jump_link');
+	//add_filter('the_content_more_link', 'mb_remove_more_jump_link');
 
 }
 endif; // mb_setup

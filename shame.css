@@ -1,0 +1,66 @@
+/* shame */
+/* line 10, assets/scss/_shame.scss */
+.ie8 .xxwide,
+.ie8 .xwide,
+.ie8 .wide,
+.ie8 .normal,
+.ie8 .narrow,
+.ie8 .xnarrow {
+  display: inline;
+}
+/* line 12, assets/scss/_shame.scss */
+.ie8 .xxwide + input,
+.ie8 .xwide + input,
+.ie8 .wide + input,
+.ie8 .normal + input,
+.ie8 .narrow + input,
+.ie8 .xnarrow + input {
+  display: inline;
+  margin: 0 0 0 -.25em;
+}
+/* line 20, assets/scss/_shame.scss */
+.ie8 .ttip:before, .ie8 .ttip:after {
+  display: none;
+}
+/* line 24, assets/scss/_shame.scss */
+.ie8 .ttip:hover:before, .ie8 .ttip:hover:after {
+  display: block;
+}
+
+/* line 33, assets/scss/_shame.scss */
+.ie9 .radio.checked i, .ie9 .checkbox.checked i {
+  top: 0;
+}
+
+/* line 39, assets/scss/_shame.scss */
+.ir {
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 49, assets/scss/_shame.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* Text meant only for screen readers */
+/* line 54, assets/scss/_shame.scss */
+.assistive-text {
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+/* line 62, assets/scss/_shame.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}

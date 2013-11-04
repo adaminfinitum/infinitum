@@ -12,7 +12,6 @@ Version: 1.0
 // Compass imports
 
 @import "modular-scale";
-
 @import "compass";
 
 // Reset, Variables, Mixins, Etc
@@ -22,10 +21,10 @@ Version: 1.0
 @import "partials/normalize";
 
 // Globals
-@import "partials/global";
+//@import "partials/global";
 
 // The grid
-@import "partials/grid";
+//@import "partials/grid";
 
 // Page and Site Styles
 @import "partials/page";
@@ -36,8 +35,8 @@ Version: 1.0
 @import "partials/forms";
 
 // Helper Classes, Media Queries, Print, Etc
-@import "partials/helpers";
-@import "partials/print";
+// @import "partials/helpers";
+// @import "partials/print";
 
 
 /**
@@ -58,14 +57,12 @@ Version: 1.0
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-// @import "extensions/modular-scale/stylesheets/modular-scale";
-
 @import "var/settings";
 @import "var/lists";
 @import "var/icons/entypo";
 
 // @import "compass";
-@import "compass/reset";
+// @import "compass/reset";
 
 @import "functions/all";
 
@@ -74,6 +71,6 @@ Version: 1.0
 @import "typography";
 @import "grid";
 @import "ui/all";
-@import "shame";
+// @import "shame";
 
 @import "custom";

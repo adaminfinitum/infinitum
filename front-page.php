@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-	<section id="main" role="main">
+<div class="row clearfix">
+	<section id="main" role="main" class="eight columns">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

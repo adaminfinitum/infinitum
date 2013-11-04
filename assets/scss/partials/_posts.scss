@@ -38,6 +38,33 @@ code, tt { }
 .meta { }
 .postmetadata { }
 
+// From _global.scss
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Text meant only for screen readers */
+.assistive-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+//
+
 /* SHARING */
 
 .sharing h4 { margin-bottom: 0; padding-bottom: 0; }

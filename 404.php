@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-	<section id="main" role="main">
+<div class="row clearfix">
+	<section id="main" role="main" class="eight columns">
 
 		<article id="post-0" class="post error404 not-found">
 

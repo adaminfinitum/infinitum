@@ -1,5 +1,4 @@
-@mixin clearfix() { 
-  *zoom:1;
+@mixin clearfix() {
   &:before, &:after {
     content: "";
     display: table;
@@ -10,7 +9,7 @@
 }
 
 @mixin mobilefix() {
-  @include respond(all-phones) { 
+  @include respond(all-phones) {
     &:before, &:after {
       content: " ";
       display: table;
