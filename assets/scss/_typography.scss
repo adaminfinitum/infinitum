@@ -37,8 +37,8 @@ h6 { @include font-size($norm);}
 
 @include respond(all-phones) {
 
-  h1 { @include font-size($xlarge);}
-  h2 { @include font-size($larger + 6);}
+  h1 { @include font-size($larger);}
+  h2 { @include font-size($larger - 4);}
 
 }
 
@@ -54,7 +54,7 @@ h6 { @include font-size($norm);}
 
   ======================================================*/
 
-p {
+p, .post {
   font-family: $font-family-body;
   font-weight: $body-font-weight;
   @include font-size($base-font-size);

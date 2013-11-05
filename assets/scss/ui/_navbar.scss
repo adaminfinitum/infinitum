@@ -6,7 +6,7 @@
 
 .navbar {
   width: 100%;
-  min-height: 60px;
+  min-height: 50px;
   display: block;
   margin-bottom: 20px;
   background: $navbar-color; // Change this color in settings to change the navbar color
@@ -192,8 +192,8 @@
           border-bottom: darken($navbar-color, 5%);
           a {
             color: $white;
-            border-bottom: 1px solid darken($navbar-color, 10%);
-            &:hover {color: $body-link-color;}
+            border-bottom: none;
+            &:hover {color: darken($navbar-color, 10%);}
           }
         }
       }
@@ -348,7 +348,7 @@
 .gumby-no-touch .navbar ul li:hover > a,
 .gumby-touch .navbar ul li.active > a {
   position: relative;
-  background: $info-hover-color;
+  background: $secondary-hover-color;
   z-index: 1000;
 }
 
@@ -405,7 +405,7 @@
 }
 
 .gumby-no-touch .navbar li .dropdown ul li a:hover {
-  background: $default-color;
+  background: $navbar-color;
 }
 
 .gumby-touch .navbar a:hover {

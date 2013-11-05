@@ -15,13 +15,87 @@
    abbr.initialism{text-transform: uppercase; font-size:90%;} /* courtesy of twitter bootstrap */
 
 /* The order of link psudeo class properties matters... */
-   a,a:link{ } /* a:link is needed to overcome default browser styling in Chrome */
-   a:visited{ }
-   a:active{ }
-   a:hover{ }
-   a:active{ }/* a:focus is often the same as a:active and if so combine rules */
-   a:focus{ }
+    a:link{
+      border-bottom: thin solid lighten($secondary-color, 40%);
+      color: $secondary-color;
+      @include transition-duration(.5s);
+    }
+    a {
+      border-bottom: thin solid lighten($secondary-color, 40%);
+      color: $secondary-color;
+      @include transition-duration(.5s);
+     &:visited{
+       color: $body-link-color;
+       border-bottom: thin solid #fff;
+      }
+     &:hover{
+      color: $secondary-color;
+      border-bottom: thin solid $secondary-color;
+      @include transition-duration(.5s)
+     }
+     &:active{
+      color: $white;
+      background-color: $secondary-color;
+     }
+     &:focus{
+      border-bottom: thin solid darken($secondary-color, 30%);
+     }
+   }
 
+    footer a:link {
+      border-bottom: none;
+      color: $secondary-color;
+      @include transition-duration(.5s);
+    }
+    footer a{
+      border-bottom: none;
+      color: $secondary-color;
+      @include transition-duration(.5s);
+     &:visited{
+       border-bottom: none;
+       color: $body-link-color;
+      }
+     &:hover{
+      color: $secondary-color;
+      border-bottom: thin solid $secondary-color;
+      @include transition-duration(.5s)
+     }
+     &:active{
+      color: $white;
+      background-color: $secondary-color;
+     }
+     &:focus{
+      border-bottom: thin solid darken($secondary-color, 30%);
+     }
+   }
+   .navbar .logo:link {
+      border-bottom: none;
+      color: $white;
+      @include transition-duration(.5s);
+    }
+    .navbar a, .navbar .logo{
+      border-bottom: none;
+      color: $white;
+      @include transition-duration(.5s);
+     &:visited{
+       border-bottom: none;
+       color: $default-color;
+      }
+     &:hover{
+      color: $default-color;
+      background-color: darken($secondary-color, 30%);
+      border-bottom: none;
+      @include transition-duration(.5s)
+     }
+     &:active{
+      color: $white;
+      background-color: darken($secondary-color, 30%);
+     }
+     &:focus{
+      color: $white;
+      background-color: darken($secondary-color, 40%);
+     }
+   }
 /* Use for location references or 'sub-headlines' that should be indexed as part of headline */
    .seo-sub-title{
         display:block;
@@ -179,3 +253,22 @@ textarea {
     resize: vertical;
 }
 
+// footer widets divided into thirds
+
+footer section{
+  width: 33%;
+  float: left;
+  padding: 2em 1em;
+}
+
+address{
+  font-style: normal;
+}
+
+footer .org {
+  font-size: 150%;
+}
+
+.country-name {
+  visibility:hidden;
+}

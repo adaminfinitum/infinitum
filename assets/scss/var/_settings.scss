@@ -59,23 +59,23 @@ $base-size: $base-font-size $importantNum;
 $xsmall: ms(-2);
 $small: ms(-1);
 $norm: ms(0);									// $base-font-size (16px == default)
-$med: ms(1);
-$large: ms(2);
-$larger: ms(3);
-$xlarge: ms(4);
-$xxlarge: ms(5);
-$xxxlarge: ms(6);
-$reallybig: ms(8);
-$tremendous: ms(9);
-$absurd: ms(10);
+$med: ms(0);
+$large: ms(1);
+$larger: ms(2);
+$xlarge: ms(3);
+$xxlarge: ms(3);
+$xxxlarge: ms(4);
+$reallybig: ms(5);
+$tremendous: ms(6);
+$absurd: ms(7);
 
 // Typography Colors
-$header-font-color: #444444 !default;
-$header-link-color: #3085d6 !default;
-$header-link-hover-color: #58b2fa !default;
+$header-font-color: #333333 !default;
+$header-link-color: #222222 !default;
+$header-link-hover-color: #42a35a !default;
 $body-font-color: #555555 !default;
-$body-link-color: #3085d6 !default;
-$body-link-hover-color: #58b2fa !default;
+$body-link-color: #444444 !default;
+$body-link-hover-color: #6dbb80 !default;
 
 // User Interface Colors
 $global-bg-color: #fff;
@@ -83,11 +83,13 @@ $navbar-color: #42a35a;
 $navbar-link-color: #fff;
 
 $primary-color: #3085d6;
+// secondary is a green, and is the default
 $secondary-color: #42a35a;
 $default-color: #f2f2f2;
 $info-color: #4a4d50;
 $danger-color: #ca3838;
 $warning-color: #f6b83f;
+// sucess is more of a lime green, for accents
 $success-color: #58c026;
 
 $primary-hover-color: #58b2fa;

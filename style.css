@@ -455,18 +455,20 @@ a:hover {
 
 /* line 12, assets/scss/partials/_page.scss */
 ::-moz-selection {
-  background: #19ac19;
+  background: #42a35a;
+  color: #fff;
   text-shadow: none;
 }
 
-/* line 17, assets/scss/partials/_page.scss */
+/* line 18, assets/scss/partials/_page.scss */
 ::selection {
-  background: #19ac19;
+  background: #42a35a;
+  color: #fff;
   text-shadow: none;
 }
 
 /* HEADINGS / TYPOGRAPHY */
-/* line 23, assets/scss/partials/_page.scss */
+/* line 25, assets/scss/partials/_page.scss */
 h1, h2, h3, h4 {
   font-weight: normal;
   margin: 0 0 10px 0;
@@ -476,8 +478,24 @@ h1, h2, h3, h4 {
 /* HEADER */
 /* NAV */
 /* MAIN */
+/* line 48, assets/scss/partials/_page.scss */
+#main {
+  border-right: thin solid #eee;
+}
+
 /* SIDEBAR */
+/* line 51, assets/scss/partials/_page.scss */
+aside .widget {
+  padding: 1em 0;
+}
+
 /* FOOTER */
+/* line 54, assets/scss/partials/_page.scss */
+footer {
+  background: #f2f2f2;
+  border-top: thin solid #42a35a;
+}
+
 /****************************************
 PAGE TEMPLATES
 *****************************************/
@@ -487,7 +505,7 @@ PAGE TEMPLATES
 /* line 3, assets/scss/partials/_posts.scss */
 article {
   clear: both;
-  margin: 0 0 35px 0;
+  margin: 1em .5em 2em;
 }
 
 /* line 5, assets/scss/partials/_posts.scss */
@@ -497,38 +515,48 @@ blockquote {
   font-style: italic;
 }
 
-/* line 23, assets/scss/partials/_posts.scss */
+/* line 10, assets/scss/partials/_posts.scss */
+.post {
+  border-bottom: thin solid #eee;
+  padding: 1em .25em;
+}
+/* line 11, assets/scss/partials/_posts.scss */
+.post:last-of-type {
+  border-bottom: none;
+}
+
+/* line 25, assets/scss/partials/_posts.scss */
 .entry .wp-caption.aligncenter {
   margin: 0 auto;
 }
 
-/* line 25, assets/scss/partials/_posts.scss */
+/* line 27, assets/scss/partials/_posts.scss */
 img.wp-smiley {
   padding: 0;
   border: none;
 }
 
-/* line 30, assets/scss/partials/_posts.scss */
+/* line 32, assets/scss/partials/_posts.scss */
 .alignleft {
   float: left;
   width: auto;
   margin: 5px 15px 15px 0;
 }
 
-/* line 31, assets/scss/partials/_posts.scss */
+/* line 33, assets/scss/partials/_posts.scss */
 .alignright {
   float: right;
   width: auto;
   margin: 5px 0 15px 15px;
 }
 
-/* line 32, assets/scss/partials/_posts.scss */
+/* line 34, assets/scss/partials/_posts.scss */
 .aligncenter {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 33, assets/scss/partials/_posts.scss */
+/* line 35, assets/scss/partials/_posts.scss */
 img.aligncenter {
   margin-left: auto;
   margin-right: auto;
@@ -536,21 +564,21 @@ img.aligncenter {
 }
 
 /* Alignment */
-/* line 44, assets/scss/partials/_posts.scss */
+/* line 46, assets/scss/partials/_posts.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 49, assets/scss/partials/_posts.scss */
+/* line 51, assets/scss/partials/_posts.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 54, assets/scss/partials/_posts.scss */
+/* line 56, assets/scss/partials/_posts.scss */
 .aligncenter {
   clear: both;
   display: block;
@@ -558,20 +586,20 @@ img.aligncenter {
 }
 
 /* Text meant only for screen readers */
-/* line 61, assets/scss/partials/_posts.scss */
+/* line 63, assets/scss/partials/_posts.scss */
 .assistive-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
 }
 
 /* SHARING */
-/* line 70, assets/scss/partials/_posts.scss */
+/* line 72, assets/scss/partials/_posts.scss */
 .sharing h4 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-/* line 71, assets/scss/partials/_posts.scss */
+/* line 73, assets/scss/partials/_posts.scss */
 .sharing ul {
   list-style: none;
   margin-top: 0;
@@ -580,43 +608,43 @@ img.aligncenter {
   padding-bottom: 0;
 }
 
-/* line 72, assets/scss/partials/_posts.scss */
+/* line 74, assets/scss/partials/_posts.scss */
 .sharing li {
   float: left;
 }
 
-/* line 73, assets/scss/partials/_posts.scss */
+/* line 75, assets/scss/partials/_posts.scss */
 .sharing li:first-child {
   padding-left: 0;
 }
 
-/* line 74, assets/scss/partials/_posts.scss */
+/* line 76, assets/scss/partials/_posts.scss */
 .sharing .share-twitter {
   padding-top: 1px;
 }
 
-/* line 75, assets/scss/partials/_posts.scss */
+/* line 77, assets/scss/partials/_posts.scss */
 .sharing .share-facebook {
   padding-top: 1px;
 }
 
-/* line 76, assets/scss/partials/_posts.scss */
+/* line 78, assets/scss/partials/_posts.scss */
 .sharing .share-googleplus {
   margin-left: 30px;
 }
 
 /* POST NAVIGATION */
-/* line 80, assets/scss/partials/_posts.scss */
+/* line 82, assets/scss/partials/_posts.scss */
 .navgation {
   clear: both;
 }
 
-/* line 81, assets/scss/partials/_posts.scss */
+/* line 83, assets/scss/partials/_posts.scss */
 .next-posts {
   float: left;
 }
 
-/* line 82, assets/scss/partials/_posts.scss */
+/* line 84, assets/scss/partials/_posts.scss */
 .prev-posts {
   float: right;
 }
@@ -4392,7 +4420,7 @@ i.icon-logo-db:before {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans";
   font-weight: 300;
-  color: #444444;
+  color: #333333;
   text-rendering: optimizeLegibility;
   padding-top: 0.252em;
   line-height: 1.0665em;
@@ -4400,7 +4428,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 9, assets/scss/_typography.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #3085d6;
+  color: #222222;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4411,47 +4439,47 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 /* line 20, assets/scss/_typography.scss */
 h1 {
-  font-size: 68px;
-  font-size: 4.25rem;
+  font-size: 42px;
+  font-size: 2.625rem;
 }
 /* line 22, assets/scss/_typography.scss */
 h1.xlarge {
-  font-size: 110px;
-  font-size: 6.875rem;
+  font-size: 48px;
+  font-size: 3rem;
 }
 /* line 25, assets/scss/_typography.scss */
 h1.xxlarge {
-  font-size: 126px;
-  font-size: 7.875rem;
+  font-size: 68px;
+  font-size: 4.25rem;
 }
 /* line 28, assets/scss/_typography.scss */
 h1.absurd {
-  font-size: 177px;
-  font-size: 11.0625rem;
+  font-size: 78px;
+  font-size: 4.875rem;
 }
 
 /* line 32, assets/scss/_typography.scss */
 h2 {
-  font-size: 42px;
-  font-size: 2.625rem;
-}
-
-/* line 33, assets/scss/_typography.scss */
-h3 {
   font-size: 30px;
   font-size: 1.875rem;
 }
 
-/* line 34, assets/scss/_typography.scss */
-h4 {
+/* line 33, assets/scss/_typography.scss */
+h3 {
   font-size: 26px;
   font-size: 1.625rem;
 }
 
-/* line 35, assets/scss/_typography.scss */
-h5 {
+/* line 34, assets/scss/_typography.scss */
+h4 {
   font-size: 18px;
   font-size: 1.125rem;
+}
+
+/* line 35, assets/scss/_typography.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
 }
 
 /* line 36, assets/scss/_typography.scss */
@@ -4463,14 +4491,14 @@ h6 {
 @media only screen and (max-width: 767px) {
   /* line 40, assets/scss/_typography.scss */
   h1 {
-    font-size: 42px;
-    font-size: 2.625rem;
+    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   /* line 41, assets/scss/_typography.scss */
   h2 {
-    font-size: 36px;
-    font-size: 2.25rem;
+    font-size: 22px;
+    font-size: 1.375rem;
   }
 }
 /* line 45, assets/scss/_typography.scss */
@@ -4486,7 +4514,7 @@ h6 {
 
   ======================================================*/
 /* line 57, assets/scss/_typography.scss */
-p {
+p, .post {
   font-family: "Noticia Text";
   font-weight: 400;
   font-size: 16px;
@@ -4495,14 +4523,14 @@ p {
   line-height: 1.5em;
 }
 /* line 63, assets/scss/_typography.scss */
-p.lead {
+p.lead, .post.lead {
   font-size: 20px;
   font-size: 1.25rem;
   margin-bottom: 18px;
 }
 @media only screen and (max-width: 768px) {
   /* line 57, assets/scss/_typography.scss */
-  p {
+  p, .post {
     font-size: 17.6px;
     font-size: 1.1rem;
     line-height: 1.5em;
@@ -4511,14 +4539,14 @@ p.lead {
 
 /* line 73, assets/scss/_typography.scss */
 a {
-  color: #3085d6;
+  color: #444444;
   text-decoration: none;
   outline: 0;
   line-height: inherit;
 }
 /* line 78, assets/scss/_typography.scss */
 a:hover {
-  color: #58b2fa;
+  color: #6dbb80;
 }
 
 /*=====================================================
@@ -8181,7 +8209,7 @@ img {
 /* line 7, assets/scss/ui/_navbar.scss */
 .navbar {
   width: 100%;
-  min-height: 60px;
+  min-height: 50px;
   display: block;
   margin-bottom: 20px;
   background: #42a35a;
@@ -8228,8 +8256,8 @@ img {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     border-radius: 4px;
-    font-size: 30px;
-    font-size: 1.875rem;
+    font-size: 26px;
+    font-size: 1.625rem;
   }
   /* line 44, assets/scss/ui/_navbar.scss */
   .navbar a.toggle:hover {
@@ -8247,16 +8275,16 @@ img {
   float: left;
   margin: 0 2.12766% 0 0;
   padding: 0;
-  height: 60px;
-  line-height: 58px;
+  height: 51px;
+  line-height: 49px;
 }
 /* line 60, assets/scss/ui/_navbar.scss */
 .navbar .logo a {
   display: block;
   padding: 0;
   overflow: hidden;
-  height: 60px;
-  line-height: 58px;
+  height: 51px;
+  line-height: 49px;
 }
 /* line 65, assets/scss/ui/_navbar.scss */
 .navbar .logo a img {
@@ -8321,8 +8349,8 @@ img {
   text-align: center;
   padding-bottom: 0;
   margin: 0;
-  height: 60px;
-  line-height: 58px;
+  height: 51px;
+  line-height: 49px;
 }
 @media only screen and (max-width: 767px) {
   /* line 112, assets/scss/ui/_navbar.scss */
@@ -8350,8 +8378,8 @@ img {
   white-space: nowrap;
   color: white;
   text-shadow: 0 1px 2px #255a32, 0 1px 0 #255a32;
-  height: 60px;
-  line-height: 58px;
+  height: 51px;
+  line-height: 49px;
   font-size: 16px;
   font-size: 1rem;
 }
@@ -8426,11 +8454,11 @@ img {
   /* line 193, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown ul li a {
     color: white;
-    border-bottom: 1px solid #337f46;
+    border-bottom: none;
   }
   /* line 196, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown ul li a:hover {
-    color: #3085d6;
+    color: #337f46;
   }
 }
 
@@ -8593,7 +8621,7 @@ img {
   }
   /* line 305, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown.active .dropdown ul li a:hover {
-    color: #3085d6;
+    color: #444444;
   }
 }
 
@@ -8627,11 +8655,11 @@ img {
 .navbar li .dropdown ul > li a {
   display: block;
   padding: 0 20px;
-  color: #3085d6;
+  color: #444444;
   border-bottom: 1px solid #cccccc;
   text-shadow: none;
-  height: 51px;
-  line-height: 49px;
+  height: 34px;
+  line-height: 32px;
 }
 @media only screen and (max-width: 767px) {
   /* line 327, assets/scss/ui/_navbar.scss */
@@ -8657,7 +8685,7 @@ img {
 .gumby-no-touch .navbar ul li:hover > a,
 .gumby-touch .navbar ul li.active > a {
   position: relative;
-  background: #868d92;
+  background: #6dbb80;
   z-index: 1000;
 }
 
@@ -8708,7 +8736,7 @@ img {
   }
   /* line 383, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar ul li:hover .dropdown ul li a:hover {
-    color: #3085d6;
+    color: #444444;
   }
 }
 
@@ -8739,7 +8767,7 @@ img {
 
 /* line 407, assets/scss/ui/_navbar.scss */
 .gumby-no-touch .navbar li .dropdown ul li a:hover {
-  background: #f2f2f2;
+  background: #42a35a;
 }
 
 /* line 411, assets/scss/ui/_navbar.scss */
@@ -8804,7 +8832,7 @@ img {
 /* line 19, assets/scss/ui/_buttons.scss */
 .btn > a, .btn input, .btn button, .skiplink > a, .skiplink input, .skiplink button {
   display: block;
-  padding: 0 18px;
+  padding: 0 16px;
   color: white;
   height: 100%;
 }
@@ -8823,59 +8851,59 @@ img {
 
 /* line 39, assets/scss/ui/_buttons.scss */
 .btn.xlarge, .skiplink.xlarge {
-  font-size: 30px;
-  font-size: 1.875rem;
-  height: 66px;
-  line-height: 64px;
-}
-/* line 22, assets/scss/functions/_button-size.scss */
-.btn.xlarge a, .skiplink.xlarge a {
-  position: relative;
-  padding: 0 30px;
-}
-/* line 28, assets/scss/functions/_button-size.scss */
-.btn.xlarge.icon-left a, .skiplink.xlarge.icon-left a {
-  padding-left: 66px;
-}
-/* line 30, assets/scss/functions/_button-size.scss */
-.btn.xlarge.icon-left a:before, .skiplink.xlarge.icon-left a:before {
-  left: 20px;
-}
-/* line 37, assets/scss/functions/_button-size.scss */
-.btn.xlarge.icon-right a, .skiplink.xlarge.icon-right a {
-  padding-right: 66px;
-}
-/* line 39, assets/scss/functions/_button-size.scss */
-.btn.xlarge.icon-right a:after, .skiplink.xlarge.icon-right a:after {
-  right: 20px;
-}
-/* line 42, assets/scss/ui/_buttons.scss */
-.btn.large, .skiplink.large {
   font-size: 26px;
   font-size: 1.625rem;
   height: 58px;
   line-height: 56px;
 }
 /* line 22, assets/scss/functions/_button-size.scss */
-.btn.large a, .skiplink.large a {
+.btn.xlarge a, .skiplink.xlarge a {
   position: relative;
   padding: 0 26px;
 }
 /* line 28, assets/scss/functions/_button-size.scss */
-.btn.large.icon-left a, .skiplink.large.icon-left a {
+.btn.xlarge.icon-left a, .skiplink.xlarge.icon-left a {
   padding-left: 58px;
 }
 /* line 30, assets/scss/functions/_button-size.scss */
-.btn.large.icon-left a:before, .skiplink.large.icon-left a:before {
+.btn.xlarge.icon-left a:before, .skiplink.xlarge.icon-left a:before {
   left: 17.33333px;
 }
 /* line 37, assets/scss/functions/_button-size.scss */
-.btn.large.icon-right a, .skiplink.large.icon-right a {
+.btn.xlarge.icon-right a, .skiplink.xlarge.icon-right a {
   padding-right: 58px;
 }
 /* line 39, assets/scss/functions/_button-size.scss */
-.btn.large.icon-right a:after, .skiplink.large.icon-right a:after {
+.btn.xlarge.icon-right a:after, .skiplink.xlarge.icon-right a:after {
   right: 17.33333px;
+}
+/* line 42, assets/scss/ui/_buttons.scss */
+.btn.large, .skiplink.large {
+  font-size: 18px;
+  font-size: 1.125rem;
+  height: 40px;
+  line-height: 38px;
+}
+/* line 22, assets/scss/functions/_button-size.scss */
+.btn.large a, .skiplink.large a {
+  position: relative;
+  padding: 0 18px;
+}
+/* line 28, assets/scss/functions/_button-size.scss */
+.btn.large.icon-left a, .skiplink.large.icon-left a {
+  padding-left: 40px;
+}
+/* line 30, assets/scss/functions/_button-size.scss */
+.btn.large.icon-left a:before, .skiplink.large.icon-left a:before {
+  left: 12px;
+}
+/* line 37, assets/scss/functions/_button-size.scss */
+.btn.large.icon-right a, .skiplink.large.icon-right a {
+  padding-right: 40px;
+}
+/* line 39, assets/scss/functions/_button-size.scss */
+.btn.large.icon-right a:after, .skiplink.large.icon-right a:after {
+  right: 12px;
 }
 /* line 45, assets/scss/ui/_buttons.scss */
 .btn.medium, .skiplink.medium {
@@ -10221,7 +10249,7 @@ form fieldset legend {
 }
 /* line 39, assets/scss/ui/_labels.scss */
 .badge.light a, .label.light a {
-  color: #3085d6;
+  color: #444444;
 }
 /* line 43, assets/scss/ui/_labels.scss */
 .badge.dark, .label.dark {
@@ -10695,7 +10723,7 @@ table {
 /* line 10, assets/scss/ui/_tables.scss */
 table caption {
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
   padding: .75em;
 }
 /* line 18, assets/scss/ui/_tables.scss */
@@ -10893,10 +10921,139 @@ abbr.initialism {
 
 /* courtesy of twitter bootstrap */
 /* The order of link psudeo class properties matters... */
-/* a:link is needed to overcome default browser styling in Chrome */
-/* a:focus is often the same as a:active and if so combine rules */
+/* line 18, assets/scss/_custom.scss */
+a:link {
+  border-bottom: thin solid #c8e9d0;
+  color: #42a35a;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 23, assets/scss/_custom.scss */
+a {
+  border-bottom: thin solid #c8e9d0;
+  color: #42a35a;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 27, assets/scss/_custom.scss */
+a:visited {
+  color: #444444;
+  border-bottom: thin solid #fff;
+}
+/* line 31, assets/scss/_custom.scss */
+a:hover {
+  color: #42a35a;
+  border-bottom: thin solid #42a35a;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 36, assets/scss/_custom.scss */
+a:active {
+  color: white;
+  background-color: #42a35a;
+}
+/* line 40, assets/scss/_custom.scss */
+a:focus {
+  border-bottom: thin solid #16361e;
+}
+
+/* line 45, assets/scss/_custom.scss */
+footer a:link {
+  border-bottom: none;
+  color: #42a35a;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 50, assets/scss/_custom.scss */
+footer a {
+  border-bottom: none;
+  color: #42a35a;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 54, assets/scss/_custom.scss */
+footer a:visited {
+  border-bottom: none;
+  color: #444444;
+}
+/* line 58, assets/scss/_custom.scss */
+footer a:hover {
+  color: #42a35a;
+  border-bottom: thin solid #42a35a;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 63, assets/scss/_custom.scss */
+footer a:active {
+  color: white;
+  background-color: #42a35a;
+}
+/* line 67, assets/scss/_custom.scss */
+footer a:focus {
+  border-bottom: thin solid #16361e;
+}
+
+/* line 71, assets/scss/_custom.scss */
+.navbar .logo:link {
+  border-bottom: none;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 76, assets/scss/_custom.scss */
+.navbar a, .navbar .logo {
+  border-bottom: none;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 80, assets/scss/_custom.scss */
+.navbar a:visited, .navbar .logo:visited {
+  border-bottom: none;
+  color: #f2f2f2;
+}
+/* line 84, assets/scss/_custom.scss */
+.navbar a:hover, .navbar .logo:hover {
+  color: #f2f2f2;
+  background-color: #16361e;
+  border-bottom: none;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 90, assets/scss/_custom.scss */
+.navbar a:active, .navbar .logo:active {
+  color: white;
+  background-color: #16361e;
+}
+/* line 94, assets/scss/_custom.scss */
+.navbar a:focus, .navbar .logo:focus {
+  color: white;
+  background-color: #07120a;
+}
+
 /* Use for location references or 'sub-headlines' that should be indexed as part of headline */
-/* line 26, assets/scss/_custom.scss */
+/* line 100, assets/scss/_custom.scss */
 .seo-sub-title {
   display: block;
   letter-spacing: normal;
@@ -10904,93 +11061,93 @@ abbr.initialism {
   font-size: 18px;
 }
 
-/* line 32, assets/scss/_custom.scss */
+/* line 106, assets/scss/_custom.scss */
 .fsol {
   float: left;
 }
 
 /* "float start of line" */
-/* line 33, assets/scss/_custom.scss */
+/* line 107, assets/scss/_custom.scss */
 .feol {
   float: right;
 }
 
 /* "float end of line" */
-/* line 34, assets/scss/_custom.scss */
+/* line 108, assets/scss/_custom.scss */
 .center {
   text-align: center;
 }
 
-/* line 35, assets/scss/_custom.scss */
+/* line 109, assets/scss/_custom.scss */
 .centered {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 36, assets/scss/_custom.scss */
+/* line 110, assets/scss/_custom.scss */
 .ninety {
   font-size: 90%;
 }
 
-/* line 37, assets/scss/_custom.scss */
+/* line 111, assets/scss/_custom.scss */
 .one-ten {
   font-size: 110%;
 }
 
 /* Utility spacing classes,
    concept from the w3's css - http://www.w3.org/2008/site/css/minimum */
-/* line 41, assets/scss/_custom.scss */
+/* line 115, assets/scss/_custom.scss */
 .p1 {
   padding: 1em;
 }
 
-/* line 42, assets/scss/_custom.scss */
+/* line 116, assets/scss/_custom.scss */
 .p1t {
   padding-top: 1em;
 }
 
-/* line 43, assets/scss/_custom.scss */
+/* line 117, assets/scss/_custom.scss */
 .p1r {
   padding-right: 1em;
 }
 
-/* line 44, assets/scss/_custom.scss */
+/* line 118, assets/scss/_custom.scss */
 .p1b {
   padding-bottom: 1em;
 }
 
-/* line 45, assets/scss/_custom.scss */
+/* line 119, assets/scss/_custom.scss */
 .p1l {
   padding-left: 1em;
 }
 
-/* line 46, assets/scss/_custom.scss */
+/* line 120, assets/scss/_custom.scss */
 .m1 {
   margin: 1em;
 }
 
-/* line 47, assets/scss/_custom.scss */
+/* line 121, assets/scss/_custom.scss */
 .m1t {
   margin-top: 1em;
 }
 
-/* line 48, assets/scss/_custom.scss */
+/* line 122, assets/scss/_custom.scss */
 .m1r {
   margin-right: 1em;
 }
 
-/* line 49, assets/scss/_custom.scss */
+/* line 123, assets/scss/_custom.scss */
 .m1b {
   margin-bottom: 1em;
 }
 
-/* line 50, assets/scss/_custom.scss */
+/* line 124, assets/scss/_custom.scss */
 .m1s {
   margin-left: 1em;
 }
 
 /* Nice horizontal line that fades in a gradient towards the edges from css-tricks.com */
-/* line 57, assets/scss/_custom.scss */
+/* line 131, assets/scss/_custom.scss */
 .sexy-line {
   height: 1px;
   border: none;
@@ -11009,7 +11166,7 @@ abbr.initialism {
 /*
  * Image replacement
  */
-/* line 76, assets/scss/_custom.scss */
+/* line 150, assets/scss/_custom.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -11018,7 +11175,7 @@ abbr.initialism {
   *text-indent: -9999px;
 }
 
-/* line 84, assets/scss/_custom.scss */
+/* line 158, assets/scss/_custom.scss */
 .ir:before {
   content: "";
   display: block;
@@ -11029,7 +11186,7 @@ abbr.initialism {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 95, assets/scss/_custom.scss */
+/* line 169, assets/scss/_custom.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -11038,7 +11195,7 @@ abbr.initialism {
 /*
 * Hide only visually, but have it available for screenreaders: h5bp.com/v
 */
-/* line 105, assets/scss/_custom.scss */
+/* line 179, assets/scss/_custom.scss */
 .accessibly-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -11054,7 +11211,7 @@ abbr.initialism {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 122, assets/scss/_custom.scss */
+/* line 196, assets/scss/_custom.scss */
 .accessibly-hidden.focusable:active,
 .accessibly-hidden.focusable:focus {
   clip: auto;
@@ -11068,7 +11225,7 @@ abbr.initialism {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 135, assets/scss/_custom.scss */
+/* line 209, assets/scss/_custom.scss */
 .invisible {
   visibility: hidden;
 }
@@ -11076,7 +11233,7 @@ abbr.initialism {
 /*
  * A better looking default horizontal rule
  */
-/* line 143, assets/scss/_custom.scss */
+/* line 217, assets/scss/_custom.scss */
 hr {
   display: block;
   height: 1px;
@@ -11090,7 +11247,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 160, assets/scss/_custom.scss */
+/* line 234, assets/scss/_custom.scss */
 audio,
 canvas,
 img,
@@ -11101,7 +11258,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 168, assets/scss/_custom.scss */
+/* line 242, assets/scss/_custom.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -11111,7 +11268,29 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 178, assets/scss/_custom.scss */
+/* line 252, assets/scss/_custom.scss */
 textarea {
   resize: vertical;
+}
+
+/* line 258, assets/scss/_custom.scss */
+footer section {
+  width: 33%;
+  float: left;
+  padding: 2em 1em;
+}
+
+/* line 264, assets/scss/_custom.scss */
+address {
+  font-style: normal;
+}
+
+/* line 268, assets/scss/_custom.scss */
+footer .org {
+  font-size: 150%;
+}
+
+/* line 272, assets/scss/_custom.scss */
+.country-name {
+  visibility: hidden;
 }

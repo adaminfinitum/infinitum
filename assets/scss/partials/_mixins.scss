@@ -72,7 +72,7 @@
 			weight: normal;
 		}
 		src: url($font-url + '/' + $font-name + '.eot');
-		src: url($font-url + '/' + $font-name + '.eot#iefix') format('embedded-opentype'),
+		src: url($font-url + '/' + $font-name + '.eot?#iefix') format('embedded-opentype'),
 			 url($font-url + '/' + $font-name + '.woff') format('woff'),
 			 url($font-url + '/' + $font-name + '.ttf')  format('truetype'),
 			 url($font-url + '/' + $font-name + '.svg#' + $font-name) format('svg');
