@@ -64,7 +64,7 @@
 						<?php get_template_part( 'templates/partials/inc', 'meta' ); ?>
 
 						<div class="entry">
-							<?php the_content(); ?>
+							<?php the_excerpt(); ?>
 						</div>
 
 				</article>

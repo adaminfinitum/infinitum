@@ -8,7 +8,7 @@ function mb_setup() {
 	*****************************************/
 
 	// Clean up the head
-	remove_action('wp_head', 'rsd_link');
+	//remove_action('wp_head', 'rsd_link');
 	remove_action('wp_head', 'wlwmanifest_link');
 	remove_action('wp_head', 'wp_generator');
 	remove_action('wp_head', 'wp_shortlink_wp_head');
@@ -28,7 +28,7 @@ function mb_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	// Add Editor Style
-	add_editor_style( 'editor-style.css' );
+	//add_editor_style( 'editor-style.css' );
 
 	// Don't update theme
 	add_filter( 'http_request_args', 'mb_dont_update_theme', 5, 2 );
@@ -86,7 +86,7 @@ function mb_setup() {
 	add_filter('style_loader_src', 'mb_remove_script_version', 15, 1);
 
 	// Remove Read More Jump
-	//add_filter('the_content_more_link', 'mb_remove_more_jump_link');
+	add_filter('the_content_more_link', 'mb_remove_more_jump_link');
 
 }
 endif; // mb_setup

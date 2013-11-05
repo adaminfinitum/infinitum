@@ -171,13 +171,13 @@ function mb_remove_script_version($src){
 /**
  * Remove Read More Jump
  */
-function mb_remove_more_jump_link($link) {
-	$offset = strpos($link, '#more-');
-	if ($offset) {
-		$end = strpos($link, '"',$offset);
-	}
-	if ($end) {
-		$link = substr_replace($link, '', $offset, $end-$offset);
-	}
-	return $link;
-}
+// function mb_remove_more_jump_link($link) {
+//	$offset = strpos($link, '#more-');
+//	if ($offset) {
+//		$end = strpos($link, '"',$offset);
+//	}
+//	if ($end) {
+//		$link = substr_replace($link, '', $offset, $end-$offset);
+//	}
+//	return $link;
+//}
