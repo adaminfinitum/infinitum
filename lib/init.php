@@ -8,7 +8,7 @@ function mb_setup() {
 	*****************************************/
 
 	// Clean up the head
-	remove_action('wp_head', 'rsd_link');
+	// remove_action('wp_head', 'rsd_link');
 	remove_action('wp_head', 'wlwmanifest_link');
 	remove_action('wp_head', 'wp_generator');
 	remove_action('wp_head', 'wp_shortlink_wp_head');
@@ -28,7 +28,7 @@ function mb_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	// Add Editor Style
-	add_editor_style( 'editor-style.css' );
+	// add_editor_style( 'editor-style.css' );
 
 	// Don't update theme
 	add_filter( 'http_request_args', 'mb_dont_update_theme', 5, 2 );
@@ -37,7 +37,7 @@ function mb_setup() {
 	define ( 'DISALLOW_FILE_EDIT', true );
 
 	// Set Content Width
-	if ( ! isset( $content_width ) ) $content_width = 900;
+	if ( ! isset( $content_width ) ) $content_width = 960;
 
 	// Enable Post Thumbnails
 	add_theme_support( 'post-thumbnails' );

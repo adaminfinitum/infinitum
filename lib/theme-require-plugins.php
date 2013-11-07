@@ -34,6 +34,48 @@ function mb_register_required_plugins() {
 			'required' 			=> true,
 			'force_activation'	=> true
 		),
+		array(
+			'name' 				=> 'Better WP Security',
+			'slug' 				=> 'better-wp-security',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
+		array(
+			'name' 				=> 'WP Backitup',
+			'slug' 				=> 'wp-backitup',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
+		array(
+			'name' 				=> 'Dont Muck Up My Markup',
+			'slug' 				=> 'dont-much-up-my-markup',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
+		array(
+			'name' 				=> 'RDFaCE',
+			'slug' 				=> 'rdface',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
+		array(
+			'name' 				=> 'Cookies for Comments',
+			'slug' 				=> 'cookies-for-comments',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
+		array(
+			'name' 				=> 'Display Widgets',
+			'slug' 				=> 'display-widgets',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
+		array(
+			'name' 				=> 'Yet Another Related Posts Plugin',
+			'slug' 				=> 'yet-another-related-posts-plugin',
+			'required' 			=> true,
+			'force_activation'	=> true
+		),
 
 	);
 
