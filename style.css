@@ -8273,21 +8273,19 @@ img {
 .navbar .logo {
   display: inline-block;
   float: left;
-  margin: 0 2.12766% 0 0;
+  margin: 0 1em 0 0;
   padding: 0;
+  text-shadow: 0 1px 2px #255a32, 0 1px 0 #255a32;
   height: 51px;
   line-height: 49px;
 }
-/* line 60, assets/scss/ui/_navbar.scss */
+/* line 62, assets/scss/ui/_navbar.scss */
 .navbar .logo a {
   display: block;
   padding: 0;
   overflow: hidden;
   white-space: nowrap;
   color: white;
-  text-shadow: 0 1px 2px #255a32, 0 1px 0 #255a32;
-  height: 51px;
-  line-height: 49px;
 }
 /* line 69, assets/scss/ui/_navbar.scss */
 .navbar .logo a img {
@@ -11286,22 +11284,21 @@ textarea {
 
 /* line 259, assets/scss/_custom.scss */
 footer section {
-  width: 33%;
   float: left;
-  padding: 2em 1em;
+  padding: 2em 1em 2em .5em;
 }
 
-/* line 265, assets/scss/_custom.scss */
+/* line 264, assets/scss/_custom.scss */
 address {
   font-style: normal;
 }
 
-/* line 269, assets/scss/_custom.scss */
+/* line 268, assets/scss/_custom.scss */
 footer .org {
   font-size: 150%;
 }
 
-/* line 273, assets/scss/_custom.scss */
+/* line 272, assets/scss/_custom.scss */
 .country-name {
   visibility: hidden;
 }

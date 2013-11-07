@@ -54,18 +54,18 @@
 .navbar .logo {
   display: inline-block;
   float: $default-float;
-  margin: 0 $gutter 0 0;
+  margin: 0 1em 0 0;
   padding: 0;
+  text-shadow: 0 1px 2px darken($navbar-color, 20%),
+               0 1px 0 darken($navbar-color, 20%);
   @include line-and-height(height-calc($larger - 3));
   a {
     display: block;
     padding: 0;
     overflow: hidden;
     white-space: nowrap;
-      color: $navbar-link-color;
-      text-shadow: 0 1px 2px darken($navbar-color, 20%),
-                   0 1px 0 darken($navbar-color, 20%);
-                   @include line-and-height(height-calc($larger - 3));
+    color: $navbar-link-color;
+                   // @include line-and-height(height-calc($larger - 3));
     img {
       max-height: 95%;
     }
