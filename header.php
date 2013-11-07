@@ -17,7 +17,7 @@
 	<nav id="navbar-main-nav" class="navbar">
 	    <div class="row">
 	        <a class="toggle" gumby-trigger="#navbar-main-nav #menu-primary-navigation" href="#"><i class="icon-menu"></i></a>
-	        <a class="logo" id="logo" href="/"><?php bloginfo( 'name' ); ?></a>
+	        <a class="logo" id="logo" href="/" title="adam infinitum">adam <span class="infinity">∞</span> infinitum</a>
 		    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</div>
 	</nav>

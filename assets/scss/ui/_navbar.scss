@@ -61,7 +61,11 @@
     display: block;
     padding: 0;
     overflow: hidden;
-    @include line-and-height(height-calc($larger - 3));
+    white-space: nowrap;
+      color: $navbar-link-color;
+      text-shadow: 0 1px 2px darken($navbar-color, 20%),
+                   0 1px 0 darken($navbar-color, 20%);
+                   @include line-and-height(height-calc($larger - 3));
     img {
       max-height: 95%;
     }

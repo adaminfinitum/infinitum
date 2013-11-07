@@ -8283,10 +8283,13 @@ img {
   display: block;
   padding: 0;
   overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  text-shadow: 0 1px 2px #255a32, 0 1px 0 #255a32;
   height: 51px;
   line-height: 49px;
 }
-/* line 65, assets/scss/ui/_navbar.scss */
+/* line 69, assets/scss/ui/_navbar.scss */
 .navbar .logo a img {
   max-height: 95%;
 }
@@ -8296,11 +8299,11 @@ img {
     float: left;
     display: inline;
   }
-  /* line 74, assets/scss/ui/_navbar.scss */
+  /* line 78, assets/scss/ui/_navbar.scss */
   .navbar .logo a {
     padding: 0;
   }
-  /* line 76, assets/scss/ui/_navbar.scss */
+  /* line 80, assets/scss/ui/_navbar.scss */
   .navbar .logo a img {
     width: auto;
     height: auto;
@@ -8308,7 +8311,7 @@ img {
   }
 }
 
-/* line 85, assets/scss/ui/_navbar.scss */
+/* line 89, assets/scss/ui/_navbar.scss */
 .navbar ul {
   display: table;
   vertical-align: middle;
@@ -8316,7 +8319,7 @@ img {
   float: right;
 }
 @media only screen and (max-width: 767px) {
-  /* line 85, assets/scss/ui/_navbar.scss */
+  /* line 89, assets/scss/ui/_navbar.scss */
   .navbar ul {
     position: absolute;
     display: block;
@@ -8329,7 +8332,7 @@ img {
     text-align: center;
     background: #3b9150;
   }
-  /* line 103, assets/scss/ui/_navbar.scss */
+  /* line 107, assets/scss/ui/_navbar.scss */
   .navbar ul.active {
     height: auto;
     max-height: 600px;
@@ -8343,7 +8346,7 @@ img {
     box-shadow: 0 2px 2px #2c6d3c;
   }
 }
-/* line 112, assets/scss/ui/_navbar.scss */
+/* line 116, assets/scss/ui/_navbar.scss */
 .navbar ul li {
   display: table-cell;
   text-align: center;
@@ -8353,7 +8356,7 @@ img {
   line-height: 49px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 112, assets/scss/ui/_navbar.scss */
+  /* line 116, assets/scss/ui/_navbar.scss */
   .navbar ul li {
     display: block;
     position: relative;
@@ -8371,7 +8374,7 @@ img {
     transition-duration: 0.5s;
   }
 }
-/* line 132, assets/scss/ui/_navbar.scss */
+/* line 136, assets/scss/ui/_navbar.scss */
 .navbar ul li > a {
   display: block;
   padding: 0 16px;
@@ -8383,32 +8386,32 @@ img {
   font-size: 16px;
   font-size: 1rem;
 }
-/* line 141, assets/scss/ui/_navbar.scss */
+/* line 145, assets/scss/ui/_navbar.scss */
 .navbar ul li > a i.icon-popup {
   position: absolute;
 }
-/* line 145, assets/scss/ui/_navbar.scss */
+/* line 149, assets/scss/ui/_navbar.scss */
 .navbar ul li .btn {
   border-color: #16361e !important;
 }
-/* line 148, assets/scss/ui/_navbar.scss */
+/* line 152, assets/scss/ui/_navbar.scss */
 .navbar ul li.field {
   margin-bottom: 0 !important;
   margin-right: 0;
 }
 @media only screen and (max-width: 767px) {
-  /* line 148, assets/scss/ui/_navbar.scss */
+  /* line 152, assets/scss/ui/_navbar.scss */
   .navbar ul li.field {
     padding: 0 20px;
   }
 }
-/* line 154, assets/scss/ui/_navbar.scss */
+/* line 158, assets/scss/ui/_navbar.scss */
 .navbar ul li.field input.search {
   background: #255a32;
   border: none;
   color: #f2f2f2;
 }
-/* line 160, assets/scss/ui/_navbar.scss */
+/* line 164, assets/scss/ui/_navbar.scss */
 .navbar ul li .dropdown {
   width: auto;
   min-width: 0;
@@ -8420,7 +8423,7 @@ img {
   z-index: 999;
 }
 @media only screen and (max-width: 767px) {
-  /* line 172, assets/scss/ui/_navbar.scss */
+  /* line 176, assets/scss/ui/_navbar.scss */
   .navbar ul li .dropdown {
     width: 100%;
     max-width: 100%;
@@ -8429,11 +8432,11 @@ img {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
   }
-  /* line 178, assets/scss/ui/_navbar.scss */
+  /* line 182, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown {
     border-bottom: 1px solid #337f46;
   }
-  /* line 181, assets/scss/ui/_navbar.scss */
+  /* line 185, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown ul {
     position: relative;
     top: 0;
@@ -8446,45 +8449,45 @@ img {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
   }
-  /* line 190, assets/scss/ui/_navbar.scss */
+  /* line 194, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown ul li {
     min-height: 50px;
     border-bottom: #3b9150;
   }
-  /* line 193, assets/scss/ui/_navbar.scss */
+  /* line 197, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown ul li a {
     color: white;
     border-bottom: none;
   }
-  /* line 196, assets/scss/ui/_navbar.scss */
+  /* line 200, assets/scss/ui/_navbar.scss */
   .navbar ul li.active .dropdown ul li a:hover {
     color: #337f46;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 939px) {
-  /* line 207, assets/scss/ui/_navbar.scss */
+  /* line 211, assets/scss/ui/_navbar.scss */
   .navbar > ul > li > .btn a {
     padding: 0 10px 0 10px !important;
   }
-  /* line 210, assets/scss/ui/_navbar.scss */
+  /* line 214, assets/scss/ui/_navbar.scss */
   .navbar ul > li .dropdown ul li.active .dropdown {
     left: -320px;
   }
 }
 
-/* line 216, assets/scss/ui/_navbar.scss */
+/* line 220, assets/scss/ui/_navbar.scss */
 .navcontain {
   height: 80px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 216, assets/scss/ui/_navbar.scss */
+  /* line 220, assets/scss/ui/_navbar.scss */
   .navcontain {
     height: auto;
   }
 }
 
-/* line 225, assets/scss/ui/_navbar.scss */
+/* line 229, assets/scss/ui/_navbar.scss */
 .pretty.navbar {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80cb92), color-stop(100%, #337f46));
   background-image: -webkit-linear-gradient(#80cb92, #337f46);
@@ -8497,7 +8500,7 @@ img {
   /* Remove this line if you dont want a dropshadow on your navigation*/
 }
 @media only screen and (max-width: 767px) {
-  /* line 232, assets/scss/ui/_navbar.scss */
+  /* line 236, assets/scss/ui/_navbar.scss */
   .pretty.navbar a.toggle {
     border: 1px solid #3b9150;
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #80cb92), color-stop(100%, #42a35a));
@@ -8509,11 +8512,11 @@ img {
     -moz-box-shadow: inset 0 1px 2px #92d3a2, inset 0 -1px 1px #49b564, inset 1px 0 1px #49b564, inset -1px 0 1px #49b564, 0 1px 1px #5bbd73;
     box-shadow: inset 0 1px 2px #92d3a2, inset 0 -1px 1px #49b564, inset 1px 0 1px #49b564, inset -1px 0 1px #49b564, 0 1px 1px #5bbd73;
   }
-  /* line 240, assets/scss/ui/_navbar.scss */
+  /* line 244, assets/scss/ui/_navbar.scss */
   .pretty.navbar a.toggle i {
     text-shadow: 0 1px 1px #255a32;
   }
-  /* line 243, assets/scss/ui/_navbar.scss */
+  /* line 247, assets/scss/ui/_navbar.scss */
   .pretty.navbar a.toggle:hover {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #92d3a2), color-stop(100%, #49b564));
     background-image: -webkit-linear-gradient(#92d3a2, #49b564);
@@ -8521,7 +8524,7 @@ img {
     background-image: -o-linear-gradient(#92d3a2, #49b564);
     background-image: linear-gradient(#92d3a2, #49b564);
   }
-  /* line 246, assets/scss/ui/_navbar.scss */
+  /* line 250, assets/scss/ui/_navbar.scss */
   .pretty.navbar a.toggle:active, .pretty.navbar a.toggle.active {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3b9150), color-stop(100%, #42a35a));
     background-image: -webkit-linear-gradient(#3b9150, #42a35a);
@@ -8533,7 +8536,7 @@ img {
     box-shadow: 0 1px 1px #5bbd73;
   }
 }
-/* line 252, assets/scss/ui/_navbar.scss */
+/* line 256, assets/scss/ui/_navbar.scss */
 .pretty.navbar.row {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -8542,7 +8545,7 @@ img {
   border-radius: 4px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 252, assets/scss/ui/_navbar.scss */
+  /* line 256, assets/scss/ui/_navbar.scss */
   .pretty.navbar.row {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -8551,7 +8554,7 @@ img {
     border-radius: 0;
   }
 }
-/* line 258, assets/scss/ui/_navbar.scss */
+/* line 262, assets/scss/ui/_navbar.scss */
 .pretty.navbar ul li.field input.search {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #255a32), color-stop(100%, #45aa5e));
   background-image: -webkit-linear-gradient(#255a32, #45aa5e);
@@ -8564,14 +8567,14 @@ img {
   box-shadow: 0 1px 2px #92d3a2 !important;
   /* Remove this line if you dont want a dropshadow on your navigation*/
 }
-/* line 263, assets/scss/ui/_navbar.scss */
+/* line 267, assets/scss/ui/_navbar.scss */
 .pretty.navbar > ul > li:first-child, .pretty.navbar .pretty.navbar > ul > li:first-child a:hover {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 270, assets/scss/ui/_navbar.scss */
+/* line 274, assets/scss/ui/_navbar.scss */
 .navbar li .dropdown {
   width: auto;
   min-width: 0;
@@ -8583,7 +8586,7 @@ img {
   z-index: 999;
 }
 @media only screen and (max-width: 767px) {
-  /* line 281, assets/scss/ui/_navbar.scss */
+  /* line 285, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown .dropdown {
     width: 100%;
     max-width: 100%;
@@ -8592,11 +8595,11 @@ img {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
   }
-  /* line 287, assets/scss/ui/_navbar.scss */
+  /* line 291, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown.active .dropdown {
     border-bottom: 1px solid #337f46;
   }
-  /* line 290, assets/scss/ui/_navbar.scss */
+  /* line 294, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown.active .dropdown ul {
     position: relative;
     top: 0;
@@ -8609,28 +8612,28 @@ img {
     -moz-box-shadow: none !important;
     box-shadow: none !important;
   }
-  /* line 299, assets/scss/ui/_navbar.scss */
+  /* line 303, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown.active .dropdown ul li {
     min-height: 50px;
     border-bottom: #3b9150;
   }
-  /* line 302, assets/scss/ui/_navbar.scss */
+  /* line 306, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown.active .dropdown ul li a {
     color: white;
     border-bottom: 1px solid #337f46;
   }
-  /* line 305, assets/scss/ui/_navbar.scss */
+  /* line 309, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown.active .dropdown ul li a:hover {
     color: #444444;
   }
 }
 
-/* line 312, assets/scss/ui/_navbar.scss */
+/* line 316, assets/scss/ui/_navbar.scss */
 .navbar li .dropdown ul {
   margin: 0;
   display: block;
 }
-/* line 315, assets/scss/ui/_navbar.scss */
+/* line 319, assets/scss/ui/_navbar.scss */
 .navbar li .dropdown ul > li {
   position: relative;
   display: block;
@@ -8645,13 +8648,13 @@ img {
   border-radius: none;
 }
 @media only screen and (min-width: 768px) and (max-width: 939px) {
-  /* line 315, assets/scss/ui/_navbar.scss */
+  /* line 319, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown ul > li {
     max-width: 320px;
     word-wrap: break-word;
   }
 }
-/* line 327, assets/scss/ui/_navbar.scss */
+/* line 331, assets/scss/ui/_navbar.scss */
 .navbar li .dropdown ul > li a {
   display: block;
   padding: 0 20px;
@@ -8662,17 +8665,17 @@ img {
   line-height: 32px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 327, assets/scss/ui/_navbar.scss */
+  /* line 331, assets/scss/ui/_navbar.scss */
   .navbar li .dropdown ul > li a {
     padding: 0 20px;
   }
 }
-/* line 338, assets/scss/ui/_navbar.scss */
+/* line 342, assets/scss/ui/_navbar.scss */
 .navbar li .dropdown ul > li .dropdown {
   display: none;
   background: white;
 }
-/* line 343, assets/scss/ui/_navbar.scss */
+/* line 347, assets/scss/ui/_navbar.scss */
 .navbar li .dropdown ul li:first-child a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -8681,7 +8684,7 @@ img {
   border-radius: 0;
 }
 
-/* line 349, assets/scss/ui/_navbar.scss */
+/* line 353, assets/scss/ui/_navbar.scss */
 .gumby-no-touch .navbar ul li:hover > a,
 .gumby-touch .navbar ul li.active > a {
   position: relative;
@@ -8689,7 +8692,7 @@ img {
   z-index: 1000;
 }
 
-/* line 356, assets/scss/ui/_navbar.scss */
+/* line 360, assets/scss/ui/_navbar.scss */
 .gumby-no-touch .navbar ul li:hover .dropdown,
 .gumby-touch .navbar ul li.active .dropdown {
   min-height: 50px;
@@ -8704,7 +8707,7 @@ img {
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* line 367, assets/scss/ui/_navbar.scss */
+/* line 371, assets/scss/ui/_navbar.scss */
 .gumby-no-touch .navbar ul li:hover .dropdown ul {
   position: relative;
   top: 0;
@@ -8720,27 +8723,27 @@ img {
   transition-duration: 0.5s;
 }
 @media only screen and (max-width: 767px) {
-  /* line 367, assets/scss/ui/_navbar.scss */
+  /* line 371, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar ul li:hover .dropdown ul {
     overflow: auto;
     background: #36864a;
   }
-  /* line 378, assets/scss/ui/_navbar.scss */
+  /* line 382, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar ul li:hover .dropdown ul li {
     border-bottom: #3b9150;
   }
-  /* line 380, assets/scss/ui/_navbar.scss */
+  /* line 384, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar ul li:hover .dropdown ul li a {
     color: white;
     border-bottom: 1px solid #337f46;
   }
-  /* line 383, assets/scss/ui/_navbar.scss */
+  /* line 387, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar ul li:hover .dropdown ul li a:hover {
     color: #444444;
   }
 }
 
-/* line 390, assets/scss/ui/_navbar.scss */
+/* line 394, assets/scss/ui/_navbar.scss */
 .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown,
 .gumby-touch .navbar li .dropdown ul > li.active .dropdown {
   border-top: none;
@@ -8752,30 +8755,30 @@ img {
   margin-top: 0;
 }
 @media only screen and (max-width: 767px) {
-  /* line 390, assets/scss/ui/_navbar.scss */
+  /* line 394, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown,
   .gumby-touch .navbar li .dropdown ul > li.active .dropdown {
     position: relative;
     left: 0;
   }
-  /* line 401, assets/scss/ui/_navbar.scss */
+  /* line 405, assets/scss/ui/_navbar.scss */
   .gumby-no-touch .navbar li .dropdown ul > li:hover .dropdown ul,
   .gumby-touch .navbar li .dropdown ul > li.active .dropdown ul {
     background: #2c6d3c !important;
   }
 }
 
-/* line 407, assets/scss/ui/_navbar.scss */
+/* line 411, assets/scss/ui/_navbar.scss */
 .gumby-no-touch .navbar li .dropdown ul li a:hover {
   background: #42a35a;
 }
 
-/* line 411, assets/scss/ui/_navbar.scss */
+/* line 415, assets/scss/ui/_navbar.scss */
 .gumby-touch .navbar a:hover {
   color: white !important;
 }
 
-/* line 415, assets/scss/ui/_navbar.scss */
+/* line 419, assets/scss/ui/_navbar.scss */
 .subnav {
   display: block;
   width: auto;
@@ -8783,23 +8786,23 @@ img {
   margin: 0 0 18px 0;
   padding-top: 4px;
 }
-/* line 421, assets/scss/ui/_navbar.scss */
+/* line 425, assets/scss/ui/_navbar.scss */
 .subnav li, .subnav dt, .subnav dd {
   float: left;
   display: inline;
   margin-left: 9px;
   margin-bottom: 4px;
 }
-/* line 426, assets/scss/ui/_navbar.scss */
+/* line 430, assets/scss/ui/_navbar.scss */
 .subnav li:first-child, .subnav dt:first-child, .subnav dd:first-child {
   margin-left: 0;
 }
-/* line 430, assets/scss/ui/_navbar.scss */
+/* line 434, assets/scss/ui/_navbar.scss */
 .subnav dt {
   color: #f2f2f2;
   font-weight: normal;
 }
-/* line 434, assets/scss/ui/_navbar.scss */
+/* line 438, assets/scss/ui/_navbar.scss */
 .subnav li a, .subnav dd a {
   color: white;
   font-size: 15px;
@@ -8810,7 +8813,7 @@ img {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 440, assets/scss/ui/_navbar.scss */
+/* line 444, assets/scss/ui/_navbar.scss */
 .subnav li.active a, .subnav dd.active a {
   background: #42a35a;
   padding: 5px 9px;
@@ -11160,22 +11163,30 @@ footer a:focus {
   background: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
+/* line 142, assets/scss/_custom.scss */
+.infinity {
+  font-family: infinitum, sans-serif;
+}
+
+/* line 143, assets/scss/_custom.scss */
+.logo {
+  font-size: 150%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 /*
  * Image replacement
  */
-/* line 150, assets/scss/_custom.scss */
+/* line 153, assets/scss/_custom.scss */
 .ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
 }
 
-/* line 158, assets/scss/_custom.scss */
+/* line 159, assets/scss/_custom.scss */
 .ir:before {
   content: "";
   display: block;
@@ -11186,7 +11197,7 @@ footer a:focus {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 169, assets/scss/_custom.scss */
+/* line 170, assets/scss/_custom.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -11195,7 +11206,7 @@ footer a:focus {
 /*
 * Hide only visually, but have it available for screenreaders: h5bp.com/v
 */
-/* line 179, assets/scss/_custom.scss */
+/* line 180, assets/scss/_custom.scss */
 .accessibly-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -11211,7 +11222,7 @@ footer a:focus {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 196, assets/scss/_custom.scss */
+/* line 197, assets/scss/_custom.scss */
 .accessibly-hidden.focusable:active,
 .accessibly-hidden.focusable:focus {
   clip: auto;
@@ -11225,7 +11236,7 @@ footer a:focus {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 209, assets/scss/_custom.scss */
+/* line 210, assets/scss/_custom.scss */
 .invisible {
   visibility: hidden;
 }
@@ -11233,7 +11244,7 @@ footer a:focus {
 /*
  * A better looking default horizontal rule
  */
-/* line 217, assets/scss/_custom.scss */
+/* line 218, assets/scss/_custom.scss */
 hr {
   display: block;
   height: 1px;
@@ -11247,7 +11258,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 234, assets/scss/_custom.scss */
+/* line 235, assets/scss/_custom.scss */
 audio,
 canvas,
 img,
@@ -11258,7 +11269,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 242, assets/scss/_custom.scss */
+/* line 243, assets/scss/_custom.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -11268,29 +11279,29 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 252, assets/scss/_custom.scss */
+/* line 253, assets/scss/_custom.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 258, assets/scss/_custom.scss */
+/* line 259, assets/scss/_custom.scss */
 footer section {
   width: 33%;
   float: left;
   padding: 2em 1em;
 }
 
-/* line 264, assets/scss/_custom.scss */
+/* line 265, assets/scss/_custom.scss */
 address {
   font-style: normal;
 }
 
-/* line 268, assets/scss/_custom.scss */
+/* line 269, assets/scss/_custom.scss */
 footer .org {
   font-size: 150%;
 }
 
-/* line 272, assets/scss/_custom.scss */
+/* line 273, assets/scss/_custom.scss */
 .country-name {
   visibility: hidden;
 }
