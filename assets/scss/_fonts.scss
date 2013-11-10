@@ -1,40 +1,11 @@
 /* Fonts */
 @font-face {
-  font-family: 'infinitum';
-  src: url('assets/fonts/infinitum.eot');
-}
-
-@font-face {
-	font-family: 'infinitum';
-	src: url('assets/fonts/icons/infinitum.eot?#iefix') format('embedded-opentype'),
-		   url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAASsAAsAAAAABGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq8vSGNtYXAAAAFoAAAAPAAAADxELd5/Z2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAQQAAAEEc9+AM2hlYWQAAAKwAAAANgAAADYATa9laGhlYQAAAugAAAAkAAAAJAfCA8RobXR4AAADDAAAAAwAAAAMBgAAAGxvY2EAAAMYAAAACAAAAAgACgCCbWF4cAAAAyAAAAAgAAAAIAAHAFNuYW1lAAADQAAAAUsAAAFL74gzN3Bvc3QAAASMAAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgIh4DwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAgIh7//wAAACAiHv///+Hd5AABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAADAAAAYAQAAmAAGAA0AFAAACUiJwYjIicmNTQ3NjMyFzYzMhcWFRQHBiMBIgcGFRQXFjMyNzY3Njc2PwEmJyYnJicmJyYjISIHBgcGBwYPARYXFhcWFxYXFjMyNzY1NCcmIwMAYZ+fYWpLS0tLamKen2FqS0tLS2r+ADkjIyMjORYYGBMTEBAJCQMGBhISEhIZGRYCABYYGBMTEBAJCQMGBhISEhIZGRY5IyMjIzlgmZlLS2pqS0uZmUtLampLSwGAJSU2NiUlDQ0TExMTDQ0FCAgWFhAQDg4NDRMTExMNDQUJCRYWEBAODiUlNjYlJQABAAAAAQAAtWUyaF8PPPUACwQAAAAAAM6XtgQAAAAAzpe2BAAAAAAEAAJgAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAADAAAAAAIAAAAEAAAAAAAAAAAKAIIAAQAAAAMAUQADAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABABIAAAABAAAAAAACAA4AVQABAAAAAAADABIAKAABAAAAAAAEABIAYwABAAAAAAAFABYAEgABAAAAAAAGAAkAOgABAAAAAAAKACgAdQADAAEECQABABIAAAADAAEECQACAA4AVQADAAEECQADABIAKAADAAEECQAEABIAYwADAAEECQAFABYAEgADAAEECQAGABIAQwADAAEECQAKACgAdQBpAG4AZgBpAG4AaQB0AHUAbQBWAGUAcgBzAGkAbwBuACAAMAAuADAAaQBuAGYAaQBuAGkAdAB1AG1pbmZpbml0dW0AaQBuAGYAaQBuAGkAdAB1AG0AUgBlAGcAdQBsAGEAcgBpAG4AZgBpAG4AaQB0AHUAbQBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=) format('woff'),
-       url('assets/fonts/icons/infinitum.ttf') format('truetype'),
-	     url('assets/fonts/icons/infinitum.svg#infinitum') format('svg');
-	font-style: normal;
-  font-weight: 400;
-}
-
-
-// Set local icon font
-@font-face {
   font-family: '#{$icons}';
-  src: url('assets/fonts/icons/#{$icons}.eot');
-  src: url('assets/fonts/icons/#{$icons}.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/icons/#{$icons}.woff') format('woff'),
-       url('assets/fonts/icons/#{$icons}.ttf')  format('truetype');
+  src:url('assets/fonts/iconfont/fonts/#{$icons}.eot');
+  src:url('assets/fonts/iconfont/fonts/#{$icons}.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/iconfont/fonts/#{$icons}.ttf') format('truetype'),
+    url('assets/fonts/iconfont/fonts/#{$icons}.woff') format('woff'),
+    url('assets/fonts/iconfont/fonts/#{$icons}.svg#iconfont') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-}
-
-// To include your own, local copies of fonts, use the following template
-
-@font-face {
-  font-family: '#{$icomoon}';
-  src: url('assets/fonts/iconmoon/fonts/#{$icomoon}.eot');
-  src: url('assets/fonts/iconmoon/fonts/#{$icomoon}.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/iconmoon/fonts/#{$icomoon}.woff') format('woff'),
-       url('assets/fonts/iconmoon/fonts/#{$icomoon}.ttf')  format('truetype')
-       url('assets/fonts/iconmoon/fonts/#{$icomoon}.svg#icomoon') format('svg');
-  font-style: normal;
-  font-weight: 400;
 }

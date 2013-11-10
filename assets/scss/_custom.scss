@@ -272,3 +272,104 @@ footer .org {
 .country-name {
   visibility:hidden;
 }
+
+// social icons via CSS
+
+#twitter {
+  background:#00a0d1;
+}
+
+#youtube, #google-plus {
+  background:#c4302b;
+}
+#rss {
+  background:#F60;
+}
+
+.social-links {
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  list-style:none;
+}
+
+.social-links li {
+  width:42px;
+  height:35px;
+  display:inline-block;
+  font-size:26px;
+  background:#CCC;
+  float:left;
+  padding:8px 0px 0px 4px;
+  margin:0px 0px 0px 1px;
+}
+
+.social-links a {
+  display:block;
+  width:100%;
+  height:100%;
+  margin:0px 10px 0px 0px;
+  color:#FFF;
+
+    -webkit-animation-duration: 2s;
+     -moz-animation-duration: 2s;
+       -o-animation-duration: 2s;
+          animation-duration: 2s;
+
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+       -o-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.social-links a:hover {
+  display:block;
+
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+
+      -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+          animation-duration: 1s;
+
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+       -o-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+
+//[class^="icon-"]:before, [class*=" icon-"]:before {
+//  font-family: "creativeverse_social";
+//  font-style: normal;
+//  font-weight: normal;
+//  speak: none;
+
+//  display: inline-block;
+//  text-decoration: inherit;
+//  width: 1em;
+//  margin-right: .2em;
+//  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+//  font-variant: normal;
+//  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+//  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+//  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+//}

@@ -1,28 +1,16 @@
-/* Icons */
-/* [class^="icon-"] a:before,
-[class*=" icon-"] a:before,
-[class^="icon-"] a:after,
-[class*=" icon-"] a:after,
-i[class^="icon-"],
-i[class*=" icon-"] {
-  font-family: "#{$icons}";
-  font-style: normal;
-  position:absolute;
-  text-decoration:none;
-  zoom: 1;
+@font-face {
+	font-family: '#{$iconfont}';
+	src:url('assets/fonts/iconfont/#{$iconfont}.eot');
+	src:url('assets/fonts/iconfont/#{$iconfont}.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/iconfont/#{$iconfont}.ttf') format('truetype'),
+		url('assets/fonts/iconfont/#{$iconfont}.woff') format('woff'),
+		url('assets/fonts/iconfont/#{$iconfont}.svg#iconfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-i[class^="icon-"],
-i[class*=" icon-"] {
-  display: inline-block;
-  position: static;
-  min-width: 20px;
-  margin: 0 5px;
-  text-align: center;
-} */
-
 [class*="icon-"] {
-	font-family: '#{$icons}';
+	font-family: 'iconfont';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -46,7 +34,7 @@ i[class*=" icon-"] {
 .icon-stack-exchange:before {
 	content: "\e60e";
 }
-.icon-menu:before {
+.icon-reorder:before {
 	content: "\e605";
 }
 .icon-infinity:before {
@@ -64,7 +52,7 @@ i[class*=" icon-"] {
 .icon-github:before {
 	content: "\e608";
 }
-.icon-circle-right:before {
+.icon-circleright:before {
 	content: "\e60b";
 }
 .icon-link:before {
@@ -88,6 +76,6 @@ i[class*=" icon-"] {
 .icon-info:before {
 	content: "\e609";
 }
-.icon-linked-in:before {
+.icon-linkedin:before {
 	content: "\e60a";
 }

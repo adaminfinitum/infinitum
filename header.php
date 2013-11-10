@@ -12,12 +12,13 @@
 	<!--[if lt IE 10]>
 	    <link href="/shame.css" rel="stylesheet" type="text/css">
 	<![endif]-->
+	<meta name="google-translate-customization" content="f25d363f167c3160-262b3c806177510c-gdc6a1f2688e812bc-15"></meta>
 </head>
 <body <?php body_class(); ?>>
 	<nav id="navbar-main-nav" class="navbar">
 	    <div class="row">
 	        <a class="toggle" gumby-trigger="#navbar-main-nav #menu-primary-navigation" href="#"><i class="icon-menu"></i></a>
-	        <a class="logo" id="logo" href="/" title="adam infinitum">adam <span class="infinity">∞</span> infinitum</a>
+	        <a class="logo" id="logo" href="/" title="adam infinitum">adam <i class="icon-infinity"></i> infinitum</a>
 		    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</div>
 	</nav>
