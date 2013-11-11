@@ -27,13 +27,6 @@ function mb_register_required_plugins() {
 			'required' 			=> true,
 			'force_activation'	=> true
 		),
-
-		array(
-			'name' 				=> 'Google Analytics for WordPress',
-			'slug' 				=> 'google-analytics-for-wordpress',
-			'required' 			=> true,
-			'force_activation'	=> true
-		),
 		array(
 			'name' 				=> 'Better WP Security',
 			'slug' 				=> 'better-wp-security',
@@ -43,12 +36,6 @@ function mb_register_required_plugins() {
 		array(
 			'name' 				=> 'WP Backitup',
 			'slug' 				=> 'wp-backitup',
-			'required' 			=> true,
-			'force_activation'	=> true
-		),
-		array(
-			'name' 				=> 'Dont Muck Up My Markup',
-			'slug' 				=> 'dont-much-up-my-markup',
 			'required' 			=> true,
 			'force_activation'	=> true
 		),

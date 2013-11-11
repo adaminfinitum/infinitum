@@ -1,11 +1,11 @@
 /* Fonts */
 @font-face {
   font-family: '#{$icons}';
-  src:url('assets/fonts/iconfont/fonts/#{$icons}.eot');
-  src:url('assets/fonts/iconfont/fonts/#{$icons}.eot?#iefix') format('embedded-opentype'),
-    url('assets/fonts/iconfont/fonts/#{$icons}.ttf') format('truetype'),
-    url('assets/fonts/iconfont/fonts/#{$icons}.woff') format('woff'),
-    url('assets/fonts/iconfont/fonts/#{$icons}.svg#iconfont') format('svg');
+  src:url('assets/fonts/iconfont/#{$icons}.eot');
+  src:url('assets/fonts/iconfont/#{$icons}.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/iconfont/#{$icons}.ttf') format('truetype'),
+      url('assets/fonts/iconfont/#{$icons}.woff') format('woff'),
+      url('assets/fonts/iconfont/#{$icons}.svg#iconfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
