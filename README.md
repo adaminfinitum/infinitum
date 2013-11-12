@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Infinitum Theme
 
   Version 0.9
@@ -209,3 +210,9 @@ Without these projects, this WordPress Starter Theme wouldn't be where it is tod
 * [Don't Overthink It Grids](css-tricks.com/dont-overthink-it-grids/)
 * [Underscores Theme](https://github.com/Automattic/_s)
 * [Grunt](http://gruntjs.com/)
+=======
+infinitum
+=========
+
+WordPress Theme with Gumby, Compass, Grunt, H5BP etc.
+>>>>>>> 1d8a7a89d1dbcab1e0713fc90aedbbcd4f69ed83
