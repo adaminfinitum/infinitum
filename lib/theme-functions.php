@@ -25,12 +25,12 @@ function mb_contactmethods( $contactmethods ) {
 /**
  * Register Widget Areas
  */
-function mb_widgets_init() {
+function ai_widgets_init() {
 	// Main Sidebar
 	register_sidebar(array(
-		'name'          => __( 'Main Sidebar', 'mb' ),
+		'name'          => __( 'Main Sidebar', 'ai' ),
 		'id'            => 'main-sidebar',
-		'description'   => __( 'Widgets for Main Sidebar.', 'mb' ),
+		'description'   => __( 'Widgets for Main Sidebar.', 'ai' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h4 class="widget-title">',
@@ -39,9 +39,9 @@ function mb_widgets_init() {
 
 	// Footer
 	register_sidebar(array(
-		'name'          => __( 'Footer', 'mb' ),
+		'name'          => __( 'Footer', 'ai' ),
 		'id'            => 'footer-widgets',
-		'description'   => __( 'Widgets for Footer.', 'mb' ),
+		'description'   => __( 'Widgets for Footer.', 'ai' ),
 		'before_widget' => '<section id="%1$s" class="widget columns four %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h4 class="widget-title">',
@@ -63,7 +63,7 @@ function mb_widgets_init() {
  * @param string $url, request url
  * @return array request arguments
  */
-function mb_dont_update_theme( $r, $url ) {
+function ai_dont_update_theme( $r, $url ) {
 	if ( 0 !== strpos( $url, 'http://api.wordpress.org/themes/update-check' ) )
 		return $r; // Not a theme update request. Bail immediately.
 	$themes = unserialize( $r['body']['themes'] );
@@ -76,7 +76,7 @@ function mb_dont_update_theme( $r, $url ) {
 /**
  * Remove Dashboard Meta Boxes
  */
-function mb_remove_dashboard_widgets() {
+function ai_remove_dashboard_widgets() {
 	global $wp_meta_boxes;
 	// unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
 	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
@@ -91,7 +91,7 @@ function mb_remove_dashboard_widgets() {
 /**
  * Change Admin Menu Order
  */
-function mb_custom_menu_order($menu_ord) {
+function ai_custom_menu_order($menu_ord) {
 	if (!$menu_ord) return true;
 	return array(
 		// 'index.php', // Dashboard
@@ -115,14 +115,14 @@ function mb_custom_menu_order($menu_ord) {
 /**
  * Hide Admin Areas that are not used
  */
-function mb_remove_menu_pages() {
+function ai_remove_menu_pages() {
 	// remove_menu_page('link-manager.php');
 }
 
 /**
  * Remove default link for images
  */
-function mb_imagelink_setup() {
+function ai_imagelink_setup() {
 	$image_set = get_option( 'image_default_link_type' );
 	if ($image_set !== 'none') {
 		update_option('image_default_link_type', 'none');
@@ -132,7 +132,7 @@ function mb_imagelink_setup() {
 /**
  * Show Kitchen Sink in WYSIWYG Editor
  */
-function mb_unhide_kitchensink($args) {
+function ai_unhide_kitchensink($args) {
 	$args['wordpress_adv_hidden'] = false;
 	return $args;
 }
@@ -144,10 +144,10 @@ Frontend
 /**
  * Enqueue scripts
  */
-function mb_scripts() {
+function ai_scripts() {
 	// CSS first
-	wp_register_style('mb_style', get_stylesheet_directory_uri().'/style.css', null, '1.0', 'all' );
-	wp_enqueue_style( 'mb_style' );
+	wp_register_style('ai_style', get_stylesheet_directory_uri().'/style.css', null, '1.0', 'all' );
+	wp_enqueue_style( 'ai_style' );
 	// JavaScript
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -163,7 +163,7 @@ function mb_scripts() {
 /**
  * Remove Query Strings From Static Resources
  */
-function mb_remove_script_version($src){
+function ai_remove_script_version($src){
 	$parts = explode('?', $src);
 	return $parts[0];
 }
@@ -171,13 +171,13 @@ function mb_remove_script_version($src){
 /**
  * Remove Read More Jump
  */
-// function mb_remove_more_jump_link($link) {
-//	$offset = strpos($link, '#more-');
-//	if ($offset) {
-//		$end = strpos($link, '"',$offset);
-//	}
-//	if ($end) {
-//		$link = substr_replace($link, '', $offset, $end-$offset);
-//	}
-//	return $link;
-//}
+ function ai_remove_more_jump_link($link) {
+	$offset = strpos($link, '#more-');
+	if ($offset) {
+		$end = strpos($link, '"',$offset);
+	}
+	if ($end) {
+		$link = substr_replace($link, '', $offset, $end-$offset);
+	}
+	return $link;
+}

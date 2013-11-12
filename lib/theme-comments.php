@@ -5,17 +5,17 @@
  *
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @since _mbbasetheme 2.6
+ * @since _infinitum 0.9
  */
-if ( ! function_exists( '_mbbasetheme_comment' ) ) :
-function _mbbasetheme_comment( $comment, $args, $depth ) {
+if ( ! function_exists( '_infinitum_comment' ) ) :
+function _infinitum_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
 	switch ( $comment->comment_type ) :
 		case 'pingback' :
 		case 'trackback' :
 	?>
 	<li class="post pingback">
-		<p><?php _e( 'Pingback:', '_mbbasetheme' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', '_mbbasetheme' ), ' ' ); ?></p>
+		<p><?php _e( 'Pingback:', '_infinitum' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', '_infinitum' ), ' ' ); ?></p>
 	<?php
 			break;
 		default :
@@ -25,10 +25,10 @@ function _mbbasetheme_comment( $comment, $args, $depth ) {
 			<div>
 				<div class="comment-author vcard">
 					<?php echo get_avatar( $comment, 40 ); ?>
-					<?php printf( __( '%s <span class="says">says:</span>', '_mbbasetheme' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
+					<?php printf( __( '%s <span class="says">says:</span>', '_infinitum' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
 				</div><!-- .comment-author .vcard -->
 				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<em><?php _e( 'Your comment is awaiting moderation.', '_mbbasetheme' ); ?></em>
+					<em><?php _e( 'Your comment is awaiting moderation.', '_infinitum' ); ?></em>
 					<br />
 				<?php endif; ?>
 
@@ -36,9 +36,9 @@ function _mbbasetheme_comment( $comment, $args, $depth ) {
 					<a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>"><time pubdate datetime="<?php comment_time( 'c' ); ?>">
 					<?php
 						/* translators: 1: date, 2: time */
-						printf( __( '%1$s at %2$s', '_mbbasetheme' ), get_comment_date(), get_comment_time() ); ?>
+						printf( __( '%1$s at %2$s', '_infinitum' ), get_comment_date(), get_comment_time() ); ?>
 					</time></a>
-					<?php edit_comment_link( __( '(Edit)', '_mbbasetheme' ), ' ' );
+					<?php edit_comment_link( __( '(Edit)', '_infinitum' ), ' ' );
 					?>
 				</div><!-- .comment-meta .commentmetadata -->
 			</div>
@@ -54,4 +54,4 @@ function _mbbasetheme_comment( $comment, $args, $depth ) {
 			break;
 	endswitch;
 }
-endif; // ends check for _mbbasetheme_comment()
+endif; // ends check for _infinitum_comment()

@@ -1,10 +1,13 @@
-<<<<<<< HEAD
 # Infinitum Theme
 
   Version 0.9
 
-Built upon Matt Bank's WordPress Starter Theme as detailed below
-customizations including Gumby Framework Version 2.5.15
+## Contributor
+
+Adam Powell ( [@AdamInfinitum](https://twitter.com/AdamInfinitum) / [adaminfinitum.com](http://www.adaminfinitum.com))
+
+Built upon Matt Bank's WordPress Starter Theme as detailed below customizations
+ including Gumby Framework Version 2.5.15
 
 
 

@@ -83,17 +83,17 @@
       }
      &:hover{
       color: $default-color;
-      background-color: darken($secondary-color, 30%);
+      background-color: lighten($secondary-color, 20%);
       border-bottom: none;
       @include transition-duration(.5s)
      }
      &:active{
       color: $white;
-      background-color: darken($secondary-color, 30%);
+      background-color: lighten($secondary-color, 30%);
      }
      &:focus{
       color: $white;
-      background-color: darken($secondary-color, 40%);
+      background-color: darken($secondary-color, 10%);
      }
    }
 /* Use for location references or 'sub-headlines' that should be indexed as part of headline */

@@ -7589,7 +7589,7 @@ footer a:focus {
 /* line 84, assets/scss/_custom.scss */
 .navbar a:hover, .navbar .logo:hover {
   color: #f2f2f2;
-  background-color: #16361e;
+  background-color: #80cb92;
   border-bottom: none;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
@@ -7599,12 +7599,12 @@ footer a:focus {
 /* line 90, assets/scss/_custom.scss */
 .navbar a:active, .navbar .logo:active {
   color: white;
-  background-color: #16361e;
+  background-color: #a4dab1;
 }
 /* line 94, assets/scss/_custom.scss */
 .navbar a:focus, .navbar .logo:focus {
   color: white;
-  background-color: #07120a;
+  background-color: #337f46;
 }
 
 /* Use for location references or 'sub-headlines' that should be indexed as part of headline */

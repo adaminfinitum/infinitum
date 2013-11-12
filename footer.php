@@ -10,6 +10,5 @@
   <script gumby-touch="assets/js/gumby/libs"></script>
   <?php wp_footer(); ?>
   <?php get_template_part( 'templates/partials/inc', 'gaJSAsync' ); ?>
-  <script src="assets/js/extra-ga-js.js"></script>
 </body>
 </html>

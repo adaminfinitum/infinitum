@@ -1,4 +1,5 @@
 # Require any additional compass plugins here.
+require 'compass-recipes'
 
 # Tell compass where to find local extensions
 # If you followed directions and ran 'gem install modular-scale' comment the next two lines out:

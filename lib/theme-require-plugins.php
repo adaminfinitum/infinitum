@@ -3,7 +3,7 @@
 /**
  * Register the required plugins for this theme.
  */
-function mb_register_required_plugins() {
+function ai_register_required_plugins() {
 
 	$plugins = array(
 
@@ -67,7 +67,7 @@ function mb_register_required_plugins() {
 	);
 
 	// Change this to your theme text domain, used for internationalising strings
-	$theme_text_domain = 'mbplugins';
+	$theme_text_domain = 'aiplugins';
 
 	/**
 	 * Array of configuration settings. Amend each line as needed.
