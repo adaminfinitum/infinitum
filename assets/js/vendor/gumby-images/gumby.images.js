@@ -94,7 +94,7 @@
 		}
 	};
 
-	// handle media object checking each prop for matching media query 
+	// handle media object checking each prop for matching media query
 	Images.prototype.handleTests = function(type, array) {
 		var scope = this,
 			supported = false;
@@ -111,7 +111,7 @@
 		return supported;
 	};
 
-	// return the result of test function 
+	// return the result of test function
 	Images.prototype.check = function(type, val) {
 		return this.checks[type](val);
 	};
@@ -135,7 +135,7 @@
 		var supp = support.split(','),
 			res = [], splt = [];
 
-		// multiple can be supplied so loop round and create object 
+		// multiple can be supplied so loop round and create object
 		$(supp).each(function(key, val) {
 			splt = val.split('|');
 			if(splt.length !== 2) {
@@ -183,4 +183,4 @@
 			Gumby.initialize('images');
 		}
 	});
-}();
+}(jQuery);

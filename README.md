@@ -1,6 +1,15 @@
+# Infinitum Theme
+
+  Version 0.9
+
+Built upon Matt Bank's WordPress Starter Theme as detailed below
+customizations including Gumby Framework Version 2.5.15
+
+
+
 # WordPress Starter Theme
 
-Version: 3.4.5
+# Version: 3.4.5
 
 ## Contributors:
 

@@ -2,8 +2,8 @@
 /**
  * The template for displaying Comments.
  *
- * @package mattbanks
- * @since mattbanks 2.6
+ * @package infinitum
+ * @since infinitum 0.9
  */
 ?>
 
@@ -21,20 +21,20 @@
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), '_mbbasetheme' ),
+				printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), '_infinitum' ),
 					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 			?>
 		</h2>
 
 		<ol class="commentlist">
-			<?php wp_list_comments( array( 'callback' => '_mbbasetheme_comment' ) ); ?>
+			<?php wp_list_comments( array( 'callback' => '_infinitum_comment' ) ); ?>
 		</ol><!-- .commentlist -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<div role="navigation" id="comment-nav-below" class="site-navigation comment-navigation">
-			<h3 class="assistive-text"><?php _e( 'Comment navigation', '_mbbasetheme' ); ?></h3>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', '_mbbasetheme' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', '_mbbasetheme' ) ); ?></div>
+			<h3 class="assistive-text"><?php _e( 'Comment navigation', '_infinitum' ); ?></h3>
+			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', '_infinitum' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', '_infinitum' ) ); ?></div>
 		</div><!-- #comment-nav-below .site-navigation .comment-navigation -->
 		<?php endif; // check for comment navigation ?>
 
@@ -44,7 +44,7 @@
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() && '0' != get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-		<p class="nocomments"><?php _e( 'Comments are closed.', '_mbbasetheme' ); ?></p>
+		<p class="nocomments"><?php _e( 'Comments are closed.', '_infinitum' ); ?></p>
 	<?php endif; ?>
 
 	<?php comment_form(); ?>

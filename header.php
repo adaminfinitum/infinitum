@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/apple-touch-icon.png">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Noticia+Text:400,700' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Noticia+Text:400,700' rel='stylesheet'>
 	<?php wp_head(); ?>
 	<!--[if lt IE 10]>
 	    <link href="/shame.css" rel="stylesheet" type="text/css">
@@ -23,6 +23,9 @@
 		</div>
 	</nav>
         <div id="container" class="container">
+
+        <?php get_template_part( 'templates/partials/inc', 'gtm' ); ?>
+
 		    <header class="row">
 			    <div class="description"><?php bloginfo( 'description' ); ?></div>
 		    </header>

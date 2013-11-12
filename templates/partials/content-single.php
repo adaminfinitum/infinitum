@@ -2,8 +2,8 @@
 /**
  * The template used for displaying page content in single.php
  *
- * @package mattbanks
- * @since mattbanks 2.5
+ * @package infinitum
+ * @since infinitum 0.9
  */
 ?>
 
@@ -23,6 +23,7 @@
 
 	</div>
 
-	// <?php get_template_part( 'templates/partials/inc', 'socialbuttons' ); ?>
-
+	<!-- Uncomment to clutter your design, slow your load times and provide free advertising for social networks
+	   <?php get_template_part( 'templates/partials/inc', 'socialbuttons' ); ?>
+    -->
 </article>
