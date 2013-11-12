@@ -20,4 +20,4 @@ _gaq.push(['_trackPageview']);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-<script src="assets/js/extra-ga-js.js"></script>
+<script src="assets/js/extras-ga-js.js"></script>

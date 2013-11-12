@@ -15,6 +15,9 @@
 	<meta name="google-translate-customization" content="f25d363f167c3160-262b3c806177510c-gdc6a1f2688e812bc-15"></meta>
 </head>
 <body <?php body_class(); ?>>
+
+    <?php get_template_part( 'templates/partials/inc', 'gtm' ); ?>
+
 	<nav id="navbar-main-nav" class="navbar">
 	    <div class="row">
 	        <a class="toggle" gumby-trigger="#navbar-main-nav #menu-primary-navigation" href="#"><i class="icon-menu"></i></a>
@@ -23,9 +26,6 @@
 		</div>
 	</nav>
         <div id="container" class="container">
-
-        <?php get_template_part( 'templates/partials/inc', 'gtm' ); ?>
-
 		    <header class="row">
 			    <div class="description"><?php bloginfo( 'description' ); ?></div>
 		    </header>
