@@ -7716,11 +7716,6 @@ footer a:focus {
 }
 
 /* line 142, assets/scss/_custom.scss */
-.infinity {
-  font-family: infinitum, sans-serif;
-}
-
-/* line 143, assets/scss/_custom.scss */
 .logo {
   font-size: 150%;
 }
@@ -7731,14 +7726,14 @@ footer a:focus {
 /*
  * Image replacement
  */
-/* line 153, assets/scss/_custom.scss */
+/* line 152, assets/scss/_custom.scss */
 .ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
 }
 
-/* line 159, assets/scss/_custom.scss */
+/* line 158, assets/scss/_custom.scss */
 .ir:before {
   content: "";
   display: block;
@@ -7749,7 +7744,7 @@ footer a:focus {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 170, assets/scss/_custom.scss */
+/* line 169, assets/scss/_custom.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -7758,7 +7753,7 @@ footer a:focus {
 /*
 * Hide only visually, but have it available for screenreaders: h5bp.com/v
 */
-/* line 180, assets/scss/_custom.scss */
+/* line 179, assets/scss/_custom.scss */
 .accessibly-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -7774,7 +7769,7 @@ footer a:focus {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 197, assets/scss/_custom.scss */
+/* line 196, assets/scss/_custom.scss */
 .accessibly-hidden.focusable:active,
 .accessibly-hidden.focusable:focus {
   clip: auto;
@@ -7788,7 +7783,7 @@ footer a:focus {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 210, assets/scss/_custom.scss */
+/* line 209, assets/scss/_custom.scss */
 .invisible {
   visibility: hidden;
 }
@@ -7796,7 +7791,7 @@ footer a:focus {
 /*
  * A better looking default horizontal rule
  */
-/* line 218, assets/scss/_custom.scss */
+/* line 217, assets/scss/_custom.scss */
 hr {
   display: block;
   height: 1px;
@@ -7810,7 +7805,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 235, assets/scss/_custom.scss */
+/* line 234, assets/scss/_custom.scss */
 audio,
 canvas,
 img,
@@ -7821,7 +7816,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 243, assets/scss/_custom.scss */
+/* line 242, assets/scss/_custom.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -7831,48 +7826,48 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 253, assets/scss/_custom.scss */
+/* line 252, assets/scss/_custom.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 259, assets/scss/_custom.scss */
+/* line 258, assets/scss/_custom.scss */
 footer section {
   float: left;
   padding: 2em 1em 2em .5em;
 }
 
-/* line 264, assets/scss/_custom.scss */
+/* line 263, assets/scss/_custom.scss */
 address {
   font-style: normal;
 }
 
-/* line 268, assets/scss/_custom.scss */
+/* line 267, assets/scss/_custom.scss */
 footer .org {
   font-size: 150%;
 }
 
-/* line 272, assets/scss/_custom.scss */
+/* line 271, assets/scss/_custom.scss */
 .country-name {
   visibility: hidden;
 }
 
-/* line 278, assets/scss/_custom.scss */
+/* line 277, assets/scss/_custom.scss */
 #twitter {
   background: #00a0d1;
 }
 
-/* line 282, assets/scss/_custom.scss */
+/* line 281, assets/scss/_custom.scss */
 #youtube, #google-plus {
   background: #c4302b;
 }
 
-/* line 285, assets/scss/_custom.scss */
+/* line 284, assets/scss/_custom.scss */
 #rss {
   background: #F60;
 }
 
-/* line 289, assets/scss/_custom.scss */
+/* line 288, assets/scss/_custom.scss */
 .social-links {
   width: 100%;
   margin: 0;
@@ -7881,7 +7876,7 @@ footer .org {
   list-style: none;
 }
 
-/* line 297, assets/scss/_custom.scss */
+/* line 296, assets/scss/_custom.scss */
 .social-links li {
   width: 42px;
   height: 35px;
@@ -7893,7 +7888,7 @@ footer .org {
   margin: 0px 0px 0px 1px;
 }
 
-/* line 308, assets/scss/_custom.scss */
+/* line 307, assets/scss/_custom.scss */
 .social-links a {
   display: block;
   width: 100%;
@@ -7910,7 +7905,7 @@ footer .org {
   animation-fill-mode: both;
 }
 
-/* line 326, assets/scss/_custom.scss */
+/* line 325, assets/scss/_custom.scss */
 .social-links a:hover {
   display: block;
   -webkit-animation-name: fadeInUp;

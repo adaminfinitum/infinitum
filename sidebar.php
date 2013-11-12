@@ -9,10 +9,10 @@
 
     <div class="clearfix">
     	<ul class="social-links">
-            <a class="animated fadeIn" href="https://twitter.com/AdamInfinitum"><li id="twitter" class="icon-twitter"></li></a>
-            <a class="animated fadeIn" href="https://google.com/+Adaminfinitum"><li id="google-plus" class="icon-pinterest"></li></a>
-            <a class="animated fadeIn" href="https://youtube.com/SemanticWebSEO"><li id="youtube" class="icon-youtube"></li></a>
-            <a class="animated fadeIn" href="http://http://feeds.feedburner.com/adaminfinitum"><li id="rss" class="icon-feed"></li></a>
+        <li id="twitter" class="icon-twitter"><a class="animated fadeIn center" href="https://twitter.com/AdamInfinitum"></a></li>
+        <li id="google-plus" class="icon-google-plus"><a class="animated fadeIn center" href="https://google.com/+Adaminfinitum"></a></li>
+        <li id="youtube" class="icon-youtube"><a class="animated fadeIn center" href="https://youtube.com/SemanticWebSEO"></a></li>
+        <li id="rss" class="icon-feed"><a class="animated fadeIn center" href="http://http://feeds.feedburner.com/adaminfinitum"></a></li>
         </ul><!-- social-links -->
     </div>
 
