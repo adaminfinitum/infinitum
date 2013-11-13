@@ -33,8 +33,8 @@ function ai_widgets_init() {
 		'description'   => __( 'Widgets for Main Sidebar.', 'ai' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>'
+		'before_title'  => '<div class="widget-title"><h4>',
+		'after_title'   => '</h4></div>'
 	));
 
 	// Footer
@@ -44,8 +44,8 @@ function ai_widgets_init() {
 		'description'   => __( 'Widgets for Footer.', 'ai' ),
 		'before_widget' => '<section id="%1$s" class="widget columns four %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>'
+		'before_title'  => '<div class="widget-title"><h4>',
+		'after_title'   => '</h4></div>'
 	));
 }
 
