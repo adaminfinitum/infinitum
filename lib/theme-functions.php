@@ -14,7 +14,7 @@ Backend Functions
  * @param array $contactmethods
  * @return array
  */
-function mb_contactmethods( $contactmethods ) {
+function ai_contactmethods( $contactmethods ) {
 	unset( $contactmethods['aim'] );
 	unset( $contactmethods['yim'] );
 	unset( $contactmethods['jabber'] );
