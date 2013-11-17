@@ -163,38 +163,30 @@ _gaq.push(
 );
 
 // Google Analytics Scroll Tracking Script
-
 jQuery(function($) {
     // Debug flag
     var debugMode = false;
-
     // Default time delay before checking location
     var callBackTime = 100;
-
     // # px before tracking a reader
     var readerLocation = 150;
-
     // Set some flags for tracking & execution
     var timer = 0;
     var scroller = false;
     var endContent = false;
     var didComplete = false;
-
     // Set some time variables to calculate reading time
     var startTime = new Date();
     var beginning = startTime.getTime();
     var totalTime = 0;
-
     // Track the aticle load
     if (!debugMode) {
         _gaq.push(['_trackEvent', 'Reading', 'ArticleLoaded', '', , true]);
     }
-
     // Check the location and track user
     function trackLocation() {
         bottom = $(window).height() + $(window).scrollTop();
         height = $(document).height();
-
         // If user starts to scroll send an event
         if (bottom > readerLocation && !scroller) {
             currentTime = new Date();
@@ -207,7 +199,6 @@ jQuery(function($) {
             }
             scroller = true;
         }
-
         // If user has hit the bottom of the content send an event and if they
         // did it in less than 60 sec then set a custom var
         if (bottom >= $('.entry-content').scrollTop() + $('.entry-content').innerHeight() && !endContent) {
@@ -230,7 +221,6 @@ jQuery(function($) {
             }
             endContent = true;
         }
-
         // If user has hit the bottom of page send an event
         if (bottom >= height && !didComplete) {
             currentTime = new Date();
@@ -244,38 +234,32 @@ jQuery(function($) {
             didComplete = true;
         }
     }
-
     // Track the scrolling and track location
     $(window).scroll(function() {
         if (timer) {
             clearTimeout(timer);
         }
-
         // Use a buffer so we don't call trackLocation too often.
         timer = setTimeout(trackLocation, callBackTime);
     });
 });
 
 // Google Analytics Rank Tracking Script
-
 if (document.referrer.match(/google.([a-zA-Z]{2,5})/gi) && document.referrer.match(/cd/gi)) {
   var myString = document.referrer;
   var r        = myString.match(/cd=(.*?)&/);
   var rank     = parseInt(r[1]);
   var kw       = myString.match(/q=(.*?)&/);
-
   if (kw[1].length > 0) {
     var keyWord  = decodeURI(kw[1]);
   } else {
     keyWord = "(not provided)";
   }
-
   var p        = document.location.pathname;
   _gaq.push(['_trackEvent', 'RankTracker', keyWord, p, rank, true]);
-}
+};
 
 //Track JS Errors in Google Analytics
-
 (function(window){
     var undefined,
         link = function (href) {
@@ -292,4 +276,3 @@ if (document.referrer.match(/google.([a-zA-Z]{2,5})/gi) && document.referrer.mat
         ]);
     };
 }(window));
-

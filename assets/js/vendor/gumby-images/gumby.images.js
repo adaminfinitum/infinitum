@@ -1,7 +1,8 @@
 /**
 * Gumby Images
 */
-!function() {
+
+(function($) {
 
 	'use strict';
 
@@ -183,4 +184,4 @@
 			Gumby.initialize('images');
 		}
 	});
-}(jQuery);
+}(jQuery));
