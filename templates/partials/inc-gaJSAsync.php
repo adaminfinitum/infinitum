@@ -11,7 +11,7 @@ var _gaq = _gaq || [];
 var pluginUrl =
  '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
 _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-_gaq.push(['_setAccount', 'UA-27155590-1']);
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
 _gaq.push(['_setSiteSpeedSampleRate', 100]);
 _gaq.push(['_trackPageview']);
   (function() {
@@ -20,4 +20,4 @@ _gaq.push(['_trackPageview']);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-<script src="/wp-content/themes/infinitum/assets/js/extras-ga-js.js"></script>
+<script src="assets/js/extras-ga-js.js"></script>
