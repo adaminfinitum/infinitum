@@ -1,5 +1,7 @@
 <?php
 
+//make sure you replace the domain on line 734, not sure what happens otherwise
+
 return array(
 	'version' => '0.9.3',
 	'cluster.messagebus.debug' => false,
@@ -729,6 +731,6 @@ return array(
 	),
 	'plugin.license_key' => '',
 	'plugin.type' => '',
-	'wordpress.home' => 'http://www.adaminfinitum.com',
+	'wordpress.home' => 'http://example.com',
 	'pgcache.bad_behavior_path' => '',
 );
