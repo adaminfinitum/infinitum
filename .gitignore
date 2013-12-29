@@ -2,3 +2,6 @@
 node_modules
 .sass-cache
 .htaccess
+/templates/partials/inc-gaUniJS.php
+/templates/partials/inc-gtm.php
+/templates/partials/inc-gaJSAsync.php
