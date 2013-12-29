@@ -39,8 +39,8 @@ function ai_setup() {
 	// Set Content Width
 	if ( ! isset( $content_width ) ) $content_width = 960;
 
-	// Enable Post Thuainails
-	add_theme_support( 'post-thuainails' );
+	// Enable Post Thumbnails
+	add_theme_support( 'post-thumbnails' );
 
 	// Add Image Sizes
 	// add_image_size( $name, $width = 0, $height = 0, $crop = false );
